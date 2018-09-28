@@ -1,10 +1,16 @@
 { 
  "homeCamera": {
-    "west": -121.362,
-    "south": 29.865,
-    "east": -107.878,
-    "north": 43.112
+    "west": -83.040,
+    "south": 24.244,
+    "east": -80.877,
+    "north": 25.279
   },
+ "initialCamera": {
+    "west": -83.040,
+    "south": 24.244,
+    "east": -80.877,
+    "north": 25.279
+ },
 "catalog":[{
 "name": "USGS Gap Analysis Project (CONUS_2001)",
 "type": "group",
