@@ -16,7 +16,7 @@
 "isEnabled": true,
 "type": "wms",
 "url": "http://services.azgs.az.gov/ArcGIS/services/aasggeothermal/NMBoreholeTemperatures/MapServer/WMSServer",
-"layers": "NMBoreholeTemperatures",
+"layers": "BoreholeTemperature",
 "opacity": 0.3,
 "zoomOnEnable": false,
 "dataUrlType": "none",
