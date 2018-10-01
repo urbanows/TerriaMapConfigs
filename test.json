@@ -18,7 +18,6 @@
 "url": "http://services.azgs.az.gov/ArcGIS/services/aasggeothermal/NMBoreholeTemperatures/MapServer/WMSServer",
 "layers": "NMBoreholeTemperatures",
 "opacity": 0.3,
-"parameters": { "cql_filter": "SppCode = 'mWTDEc'", "tiled": false },
 "zoomOnEnable": false,
 "dataUrlType": "none",
 "description": "None",
