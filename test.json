@@ -12,7 +12,7 @@
     "north": 25.279
  },
 "catalog":[{
-"name": "Key Deer (Odocoileus virginianus clavium) Known Range Map",
+"name": "BISON Pica Pica Map",
 "isEnabled": true,
 "type": "wms",
 "url": "https://bison.usgs.gov/api/wms?species=Pica%20pica&type=scientific_name&TRANSPARENT=true",
