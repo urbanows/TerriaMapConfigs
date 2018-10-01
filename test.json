@@ -12,7 +12,7 @@
     "north": 25.279
  },
 "catalog":[{
-"name": "BISON Pica Pica Map",
+"name": "WMS Tile Test",
 "isEnabled": true,
 "type": "wms",
 "url": "http://services.azgs.az.gov/ArcGIS/services/aasggeothermal/NMBoreholeTemperatures/MapServer/WMSServer",
