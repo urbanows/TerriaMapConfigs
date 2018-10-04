@@ -1,4 +1,5 @@
 { "catalog":[{
+"type": "group",
 "name": "NPN Leaf Test",
 "isPromoted": true,
 "isOpen": true,
