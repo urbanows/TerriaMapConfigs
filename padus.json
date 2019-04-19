@@ -1,0 +1,78 @@
+{
+  "homeCamera": {
+    "west": -125.025,
+    "south": 24.042,
+    "east": -66.797,
+    "north": 49.838
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "catalog": [
+    {
+      "name": "PAD-US Map Layers",
+      "isOpen": true,
+      "type": "group",
+      "description":"The Protected Areas Database of the United States (PAD-US) is the official inventory of protected open space in the United States. With over 3 billion acres in thousands of holdings, the spatial data in PAD-US include public lands, overlapping management designations, and Marine Protected Areas held in trust by national, state, some local governments, and by some nonprofit conservation organizations.",
+      "items": [
+        {
+          "name": "Manager Name",
+          "isEnabled": true,
+          "type": "esri-mapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Fine_Agency_Level/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Manager Type",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible" : false,
+          "type": "esri-mapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/General_Agency_Level/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "GAP Status Code",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible" : false,
+          "type": "esri-mapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/GAP_Status_Code/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Protected Areas by Manager",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible" : false,
+          "type": "esri-mapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Protected_Areas_by_Manager/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Public Access",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible" : false,
+          "type": "esri-mapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/PADUS1_4/Public_Access/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        }
+      ]
+    }
+  ]
+}
