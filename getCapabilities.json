@@ -1,0 +1,11 @@
+{
+    "catalog": [
+    {
+      "name": "WMS GAP/LANDFIRE National Terrestrial Ecosystems 2011",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms?"
+    }
+  ]
+}
