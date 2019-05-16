@@ -1,0 +1,55 @@
+
+{
+    "catalog": [
+    {
+      "name": "Geographic Names (GINS)",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://carto.nationalmap.gov/arcgis/services/geonames/MapServer/WMSServer"
+    },
+    {
+      "name": "Structures",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://carto.nationalmap.gov/arcgis/services/structures/MapServer/WMSServer"
+    },
+    {
+      "name": "Transportation",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://carto.nationalmap.gov/arcgis/services/transportation/MapServer/WMSServer"
+    },
+    {
+      "name": "Governmental Unit Boundaries",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer"
+    },
+    {
+      "name": "Hydro Cached",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://basemap.nationalmap.gov/arcgis/services/USGSHydroCached/MapServer/WMSServer"
+    },
+    {
+      "name": "National Hydrography Dataset",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://hydro.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer"
+    },
+    {
+      "name": "Watershed Boundary Dataset",
+      "isOpen": false,
+      "isHidden": false,
+      "type": "wms-getCapabilities",
+      "url": "https://hydro.nationalmap.gov/arcgis/services/wbd/MapServer/WMSServer"
+    }
+
+  ]
+}
