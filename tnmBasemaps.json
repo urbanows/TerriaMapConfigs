@@ -5,6 +5,7 @@
       "name": "Geographic Names (GINS)",
       "isOpen": false,
       "isHidden": false,
+      "description": "USGS developed The National Map Gazetteer as the Federal and national standard (ANSI INCITS 446-2008) for geographic nomenclature based on the Geographic Names Information System (GNIS). The National Map Gazetteer contains information about physical and cultural geographic features, geographic areas, and locational entities that are generally recognizable and locatable by name (have achieved some landmark status) and are of interest to any level of government or to the public for any purpose that would lead to the representation of the feature in printed or electronic maps and/or geographic information systems. The dataset includes features of all types in the United States, its associated areas, and Antarctica, current and historical, but not including roads and highways. The dataset holds the federally recognized name of each feature and defines the feature location by state, county, USGS topographic map, and geographic coordinates. Other attributes include names or spellings other than the official name, feature classification, and historical and descriptive information. The dataset assigns a unique, permanent feature identifier, the Feature ID, as a standard Federal key for accessing, integrating, or reconciling feature data from multiple data sets. This dataset is a flat model, establishing no relationships between features, such as hierarchical, spatial, jurisdictional, organizational, administrative, or in any other manner. As an integral part of The National Map, the Gazetteer collects data from a broad program of partnerships with federal, state, and local government agencies and other authorized contributors. The Gazetteer provides data to all levels of government and to the public, as well as to numerous applications through a web query site, web map, feature and XML services, file download services, and customized files upon request. The National Map download client allows free downloads of public domain geographic names data by state in a pipe-delimited text format. For additional information on the GNIS, go to http://nationalmap.gov/gnis.html. ",
       "type": "wms-getCapabilities",
       "url": "https://carto.nationalmap.gov/arcgis/services/geonames/MapServer/WMSServer"
     },
@@ -12,6 +13,7 @@
       "name": "Structures",
       "isOpen": false,
       "isHidden": false,
+      "description": "USGS Structures from The National Map consists of data to include the name, function, location, and other core information and characteristics of selected manmade facilities. The types of structures collected are largely determined by the needs of disaster planning and emergency response, and homeland security organizations. Structures currently being collected are: School, Technical/Trade School, College/University, Fire Station/EMS Station, Law Enforcement/Police Station, Prison/Correctional Facility, State Capitol, Hospital/Medical Center, Ambulance Service, Cemetery, Post Office, Campground, Trailhead, and Visitor/Information Center. Structures data are designed to be used in general mapping and in the analysis of structure related activities using geographic information system technology. The National Map structures data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain structures data in either Esri File Geodatabase or Shapefile formats. For additional information on the structures data model, go to http://nationalmap.gov/structures.html. ",
       "type": "wms-getCapabilities",
       "url": "https://carto.nationalmap.gov/arcgis/services/structures/MapServer/WMSServer"
     },
@@ -19,6 +21,7 @@
       "name": "Transportation",
       "isOpen": false,
       "isHidden": false,
+      "description": "The USGS Transportation service from The National Map (TNM) is based on TIGER/Line data provided through U.S. Census Bureau and road data from U.S. Forest Service. Some of the TIGER/Line data includes limited corrections done by USGS. Transportation data consists of roads, railroads, trails, airports, and other features associated with the transport of people or commerce. The data include the name or route designator, classification, and location. Transportation data support general mapping and geographic information system technology analysis for applications such as traffic safety, congestion mitigation, disaster planning, and emergency response. The National Map transportation data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and structures, to produce general reference base maps. The National Map download client allows free downloads of public domain transportation data in either Esri File Geodatabase or Shapefile formats. For additional information on the transportation data model, go to http://nationalmap.gov/transport.html. ",
       "type": "wms-getCapabilities",
       "url": "https://carto.nationalmap.gov/arcgis/services/transportation/MapServer/WMSServer"
     },
@@ -26,6 +29,7 @@
       "name": "Governmental Unit Boundaries",
       "isOpen": false,
       "isHidden": false,
+      "description": "The USGS Governmental Unit Boundaries service from The National Map (TNM) represents major civil areas for the Nation, including States or Territories, counties (or equivalents), Federal and Native American areas, congressional districts, minor civil divisions, incorporated places (such as cities and towns), and unincorporated places. Boundaries data are useful for understanding the extent of jurisdictional or administrative areas for a wide range of applications, including mapping or managing resources, and responding to natural disasters. Boundaries data also include extents of forest, grassland, park, wilderness, wildlife, and other reserve areas useful for recreational activities, such as hiking and backpacking. Boundaries data are acquired from a variety of government sources. The data represents the source data with minimal editing or review by USGS. Please refer to the feature-level metadata for information on the data source. The National Map boundaries data is commonly combined with other data themes, such as elevation, hydrography, structures, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain boundaries data in either Esri File Geodatabase or Shapefile formats. For additional information on the boundaries data model, go to http://nationalmap.gov/boundaries.html. ",
       "type": "wms-getCapabilities",
       "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer"
     },
@@ -33,6 +37,7 @@
       "name": "Hydro Cached",
       "isOpen": false,
       "isHidden": false,
+      "description": "USGS Hydro-NHD is a tile cache base map that combines hydrography data in The National Map from the National Hydrography Dataset (NHD) along with the Watershed Boundary Dataset (WBD). The NHD is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of surface water (lakes, ponds, and reservoirs), paths through which water flows (canals, ditches, streams, and rivers), and related entities such as point features (springs, wells, stream gages, and dams). The information encoded about these features includes classification and other characteristics, delineation, geographic name, position and related measures, a 'reach code' through which other information can be related to the NHD, and the direction of water flow. The network of reach codes delineating water and transported material flow allows users to trace movement in upstream and downstream directions. In addition to this geographic information, the dataset contains metadata that supports the exchange of future updates and improvements to the data. The NHD supports many applications, such as making maps, geocoding observations, flow modeling, data maintenance, and stewardship. For additional information on NHD, go to http://nhd.usgs.gov/. The Watershed Boundary Dataset (WBD) is a companion dataset to the NHD. It defines the perimeter of drainage areas formed by the terrain and other landscape characteristics. Drainage areas are nested within each other so that a large drainage area, such as the Upper Mississippi River, will be composed of multiple smaller drainage areas, such as the Wisconsin River. Each of these smaller areas can be further subdivided into smaller and smaller drainage areas. The WBD uses six different levels in this hierarchy, with the smallest averaging about 30,000 acres. The WBD is made up of polygons nested into six levels of data, respectively defined by Regions, Subregions, Basins, Subbasins, Watersheds, and Subwatersheds. For additional information on WBD, go to http://nhd.usgs.gov/wbd.html.",
       "type": "wms-getCapabilities",
       "url": "https://basemap.nationalmap.gov/arcgis/services/USGSHydroCached/MapServer/WMSServer"
     },
@@ -40,6 +45,7 @@
       "name": "National Hydrography Dataset",
       "isOpen": false,
       "isHidden": false,
+      "description": "The National Hydrography Dataset (NHD) is a comprehensive set of digital spatial data that encodes information about naturally occurring and constructed bodies of surface water (lakes, ponds, and reservoirs), paths through which water flows (canals, ditches, streams, and rivers), and related entities such as point features (springs, wells, stream gages, and dams). The information encoded about these features includes classification and other characteristics, delineation, geographic name, position and related measures, a 'reach code' through which other information can be related to the NHD, and the direction of water flow. The network of reach codes delineating water and transported material flow allows users to trace movement in upstream and downstream directions. In addition to this geographic information, the dataset contains metadata that supports the exchange of future updates and improvements to the data. The NHD is available nationwide in two seamless datasets, one based on 1:24,000-scale maps and referred to as high resolution NHD, and the other based on 1:100,000-scale maps and referred to as medium resolution NHD. Additional selected areas in the United States are available based on larger scales, such as 1:5,000-scale or greater, and referred to as local resolution NHD. The NHD supports many applications, such as making maps, geocoding observations, flow modeling, data maintenance, and stewardship. For additional information, go to http://nhd.usgs.gov.",
       "type": "wms-getCapabilities",
       "url": "https://hydro.nationalmap.gov/arcgis/services/nhd/MapServer/WMSServer"
     },
@@ -47,9 +53,17 @@
       "name": "Watershed Boundary Dataset",
       "isOpen": false,
       "isHidden": false,
+      "description": "Hydrologic Unit (HU) polygon boundaries for the United States, Puerto Rico, and the U.S. Virgin Islands. The data is a seamless National representation of HU boundaries from 2 to 14 digits compiled from U.S. Geological Survey (USGS) National Hydrography Dataset (NHD) and U.S. Department of Agriculture (USDA) National Resources Conservation Service (NRCS) Watershed Boundary Dataset (WBD) sources. Purpose: This data is intended primarily for geographic display and analysis of regional and national data, and can also be used for illustration purposes at intermediate or small scales (1:250,000 to 1:2,000,000). ",
       "type": "wms-getCapabilities",
       "url": "https://hydro.nationalmap.gov/arcgis/services/wbd/MapServer/WMSServer"
+    },
+    {
+      "name": "National Agriculture Imagery Program (NAIP)",
+      "isOpen": false,
+      "isHidden": false,
+      "description": "The USGS NAIP Plus service from The National Map consists of National Agriculture Imagery Program (NAIP) and high resolution orthoimagery (HRO) that combine the visual attributes of an aerial photograph with the spatial accuracy and reliability of a map. Digital orthoimage resolution may vary from 6 inches to 1 meter. In the former resolution, every pixel in an orthoimage covers a six inch square of the earth’s surface, while in the latter resolution, each pixel represents a one meter square. Many states contribute orthoimagery to The National Map, and the USGS also relies on a partnership with the U.S. Department of Agriculture's Farm Service Agency. The National Map download client allows free downloads of public domain, 1-meter resolution orthoimagery in JPEG 2000 (jp2) format for the conterminous United States, with many urban areas and other locations at 1-foot (or better) resolution also in JPEG 2000 (jp2) format. For additional information on orthoimagery, go to https://nationalmap.gov/ortho.html. ",
+      "type": "wms-getCapabilities",
+      "url": "https://services.nationalmap.gov/arcgis/services/USGSNAIPPlus/MapServer/WMSServer"
     }
-
   ]
 }
