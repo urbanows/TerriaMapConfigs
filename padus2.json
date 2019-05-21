@@ -4,6 +4,7 @@
       "name": "PAD-US 2.0",
       "isOpen": false,
       "type": "group",
+      "isShown": true,  
       "items": [
         {
           "name": "PAD-US 2.0 Proclamation and Other Planning Boundaries",
