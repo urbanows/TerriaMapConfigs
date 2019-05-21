@@ -7,7 +7,6 @@
       "items": [
         {
           "name": "PAD-US 2.0 Proclamation and Other Planning Boundaries",
-          "isEnabled": true,
           "isLegendVisible": false,
           "type": "esri-mapServer",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997861e4b0b8a7f628946f/MapServer",
