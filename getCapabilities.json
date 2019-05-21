@@ -2,6 +2,8 @@
     "catalog": [
     {
       "name": "WMS GAP/LANDFIRE National Terrestrial Ecosystems 2011",
+      "isEnabled": false,
+      "isShown": false,
       "isOpen": false,
       "isHidden": false,
       "type": "wms-getCapabilities",
