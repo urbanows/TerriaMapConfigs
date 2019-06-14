@@ -46,7 +46,7 @@
           "name": "PAD-US 2.0 Manager Type",
           "isEnabled": true,
           "isShown": false,
-          "isLegendVisible": true,
+          "isLegendVisible": false,
           "type": "esri-mapServer",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c99634ce4b0b8a7f628915b/MapServer",
           "attribution": {
@@ -58,7 +58,7 @@
           "name": "PAD-US 2.0 Manager Name",
           "isEnabled": true,
           "isShown": false,
-          "isLegendVisible": true,
+          "isLegendVisible": false,
           "type": "esri-mapServer",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
           "attribution": {
@@ -82,7 +82,7 @@
           "name": "PAD-US 2.0 Protection Status by GAP Status Code",
           "isEnabled": true,
           "isShown": false,
-          "isLegendVisible": true,
+          "isLegendVisible": false,
           "type": "esri-mapServer",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996d3be4b0b8a7f6289450/MapServer",
           "attribution": {
@@ -141,7 +141,7 @@
         {
           "name": "PAD-US 2.0 Fee Boundary Overlaps",
           "type": "group",
-          "isOpen": false,
+          "isOpen": true,
           "preserveOrder": true,
           "items": [
             {
