@@ -7,7 +7,7 @@
       "type": "group",
       "items": [
         {
-          "name": "PAD-US 2.0 Fee Managers ",
+          "name": "PAD-US 2.0 Fee Managers",
           "isEnabled": true,
           "isShown": true,
           "isLegendVisible": true,
@@ -141,12 +141,12 @@
         {
           "name": "PAD-US 2.0 Fee Boundary Overlaps",
           "type": "group",
-          "isOpen": true,
+          "isOpen": false,
           "preserveOrder": true,
           "items": [
             {
               "name": "All Overlap Errors",
-              "isEnabled": true,
+              "isEnabled": false,
               "isShown": false,
               "isLegendVisible": false,
               "type": "esri-mapServer",
@@ -158,7 +158,7 @@
               },
               {
                 "name": "Federal/Federal Overlaps Greater Than 5 Acres",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isShown": false,
                 "isLegendVisible": false,
                 "type": "esri-mapServer",
@@ -170,7 +170,7 @@
               },
               {
                 "name": "Federal/State Overlaps Greater Than 5 Acres",
-                "isEnabled": true,
+                "isEnabled": false,
                 "isShown": false,
                 "isLegendVisible": false,
                 "type": "esri-mapServer",
