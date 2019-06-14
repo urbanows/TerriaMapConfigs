@@ -1,8 +1,9 @@
 {
     "catalog": [
     {
-      "name": "PAD-US 2.0",
+      "name": "Protected Areas Database of the U.S. v2.0",
       "isOpen": true,
+      "preserveOrder": true,
       "type": "group",
       "items": [
         {
@@ -144,7 +145,7 @@
           "preserveOrder": true,
           "items": [
             {
-              "name": "All Errors",
+              "name": "All Overlap Errors",
               "isEnabled": false,
               "isShown": false,
               "isLegendVisible": false,
@@ -156,7 +157,7 @@
                 }
               },
               {
-                "name": "Fed/Fed Greater Than 5 Acres",
+                "name": "Federal/Federal Overlaps Greater Than 5 Acres",
                 "isEnabled": false,
                 "isShown": false,
                 "isLegendVisible": false,
@@ -168,7 +169,7 @@
                 }
               },
               {
-                "name": "Fed/State Greater Than 5 Acres",
+                "name": "Federal/State Overlaps Greater Than 5 Acres",
                 "isEnabled": false,
                 "isShown": false,
                 "isLegendVisible": false,
