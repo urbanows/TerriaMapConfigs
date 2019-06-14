@@ -1,5 +1,5 @@
 {
-    "catalog": [
+  "catalog": [
     {
       "name": "Protected Areas Database of the U.S. v2.0",
       "isOpen": true,
@@ -22,143 +22,143 @@
               "attribution": {
                 "text": "USGS",
                 "link": "http://www.usgs.gov"
-                }
-              },
-              {
-                "name": "Federal/Federal Overlaps Greater Than 5 Acres",
-                "isEnabled": false,
-                "isShown": false,
-                "isLegendVisible": false,
-                "type": "esri-mapServer",
-                "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5cae5baae4b0c3b00654d078/MapServer/1",
-                "attribution": {
-                  "text": "USGS",
-                  "link": "http://www.usgs.gov"
-                }
-              },
-              {
-                "name": "Federal/State Overlaps Greater Than 5 Acres",
-                "isEnabled": false,
-                "isShown": false,
-                "isLegendVisible": false,
-                "type": "esri-mapServer",
-                "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5cae5baae4b0c3b00654d078/MapServer/3",
-                "attribution": {
-                  "text": "USGS",
-                  "link": "http://www.usgs.gov"
-                }
               }
-            ]
-          },
-          {
-            "name": "PAD-US 2.0 DOD Boundaries",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c9973eae4b0b8a7f6289469/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
+            },
+            {
+              "name": "Federal/Federal Overlaps Greater Than 5 Acres",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5cae5baae4b0c3b00654d078/MapServer/1",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              }
+            },
+            {
+              "name": "Federal/State Overlaps Greater Than 5 Acres",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5cae5baae4b0c3b00654d078/MapServer/3",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              }
             }
-          },
-          {
-            "name": "PAD-US 2.0 Proclamation and Other Planning Boundaries",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997861e4b0b8a7f628946f/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Public Access",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996d2de4b0b8a7f628944e/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Protected Areas by Manager",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997bb7e4b0b8a7f6289475/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Protection Status by GAP Status Code",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996d3be4b0b8a7f6289450/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Federal Management Agencies",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996b38e4b0b8a7f62893cd/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Manager Name",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Manager Type",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c99634ce4b0b8a7f628915b/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
-            "name": "PAD-US 2.0 Protection Mechanism Category",
-            "isEnabled": true,
-            "isShown": false,
-            "isLegendVisible": false,
-            "type": "esri-mapServer",
-            "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997a12e4b0b8a7f6289472/MapServer",
-            "attribution": {
-              "text": "USGS",
-              "link": "http://www.usgs.gov"
-            }
-          },
-          {
+          ]
+        },
+        {
+          "name": "PAD-US 2.0 DOD Boundaries",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c9973eae4b0b8a7f6289469/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Proclamation and Other Planning Boundaries",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997861e4b0b8a7f628946f/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Public Access",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996d2de4b0b8a7f628944e/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Protected Areas by Manager",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997bb7e4b0b8a7f6289475/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Protection Status by GAP Status Code",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996d3be4b0b8a7f6289450/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Federal Management Agencies",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996b38e4b0b8a7f62893cd/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Manager Name",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c996787e4b0b8a7f6289256/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Manager Type",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c99634ce4b0b8a7f628915b/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "PAD-US 2.0 Protection Mechanism Category",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997a12e4b0b8a7f6289472/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
           "name": "PAD-US 2.0 Federal Fee Managers (Authoritative Data)",
           "isEnabled": true,
           "isShown": false,
