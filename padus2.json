@@ -8,9 +8,9 @@
       "items": [
         {
           "name": "PAD-US 2.0 Fee Managers ",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
+          "isEnabled": true,
+          "isShown": true,
+          "isLegendVisible": true,
           "type": "esri-mapServer",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997641e4b0b8a7f628946c/MapServer",
           "attribution": {
@@ -20,7 +20,7 @@
         },
         {
           "name": "PAD-US 2.0 Federal Fee Managers (Authoritative Data)",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -32,7 +32,7 @@
         },
         {
           "name": "PAD-US 2.0 Protection Mechanism Category",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -44,7 +44,7 @@
         },
         {
           "name": "PAD-US 2.0 Manager Type",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": true,
           "type": "esri-mapServer",
@@ -56,7 +56,7 @@
         },
         {
           "name": "PAD-US 2.0 Manager Name",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": true,
           "type": "esri-mapServer",
@@ -68,7 +68,7 @@
         },
         {
           "name": "PAD-US 2.0 Federal Management Agencies",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -80,7 +80,7 @@
         },
         {
           "name": "PAD-US 2.0 Protection Status by GAP Status Code",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": true,
           "type": "esri-mapServer",
@@ -92,7 +92,7 @@
         },
         {
           "name": "PAD-US 2.0 Protected Areas by Manager",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -104,7 +104,7 @@
         },
         {
           "name": "PAD-US 2.0 Public Access",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -116,7 +116,7 @@
         },
         {
           "name": "PAD-US 2.0 Proclamation and Other Planning Boundaries",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -128,7 +128,7 @@
         },
         {
           "name": "PAD-US 2.0 DOD Boundaries",
-          "isEnabled": false,
+          "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -146,7 +146,7 @@
           "items": [
             {
               "name": "All Overlap Errors",
-              "isEnabled": false,
+              "isEnabled": true,
               "isShown": false,
               "isLegendVisible": false,
               "type": "esri-mapServer",
@@ -158,7 +158,7 @@
               },
               {
                 "name": "Federal/Federal Overlaps Greater Than 5 Acres",
-                "isEnabled": false,
+                "isEnabled": true,
                 "isShown": false,
                 "isLegendVisible": false,
                 "type": "esri-mapServer",
@@ -170,7 +170,7 @@
               },
               {
                 "name": "Federal/State Overlaps Greater Than 5 Acres",
-                "isEnabled": false,
+                "isEnabled": true,
                 "isShown": false,
                 "isLegendVisible": false,
                 "type": "esri-mapServer",
