@@ -8,13 +8,6 @@
       "metadataUrl": "",
       "layers": "sb:boundingBox",
       "description": "The USGS Biodiversity Information Serving Our Nation (BISON) project is an online mapping information system consisting of a large collection of species occurrence datasets (e.g., plants and animals) found in the United States, U.S. Territories and relevant geospatial layers. Species occurrences are records of organisms at a particular time and location that are often collected as part of biological field studies and taxonomic collections. These data serve as a foundation for biodiversity and conservation research.",
-      "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
-      "info": [
-        {
-          "name": "Dislcaimer",
-          "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
-        }
-      ]
     }
   ]
 }
