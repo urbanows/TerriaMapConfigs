@@ -11,7 +11,7 @@
 "name": "NPN Leaf Test",
 "isEnabled": true,
 "type": "wms",
-"url": "https://geoserver-dev.usanpn.org/geoserver/si-x/wms",
+"url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5138e8e5e4b02c509e50c57f?service=wms&request=getcapabilities&version=1.3.0",
 "layers": "average_leaf_prism",
 "opacity": 0.5,
 "keepOnTop": true,
