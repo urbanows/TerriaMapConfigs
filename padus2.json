@@ -12,7 +12,7 @@
           "isLegendVisible": false,
           "type": "esri-mapServer",
           "dataUrl": "https://www.usgs.gov/core-science-systems/science-analytics-and-synthesis/gap/science/pad-us-data-download",
-          "dataUrlType": "direct".
+          "dataUrlType": "direct",
           "url": "https://gis.usgs.gov/sciencebase2/rest/services/Catalog/5c997641e4b0b8a7f628946c/MapServer",
           "attribution": {
             "text": "USGS",
