@@ -1,20 +1,24 @@
 {
-  "name": "Simple Example",
-  "type": "terria-json",
-  "url": "https://putsreq.com/PK2GvS6jHfWhlBmkadrG",
-  "inputs": [
-    {
-      "id": "position",
-      "type": "point",
-      "name": "Position",
-      "description": "The position to pass to the service.",
-      "formatter": "longitudeCommaLatitude"
-    },
-    {
-      "id": "someOtherParameter",
-      "type": "string",
-      "name": "Some Other Parameter",
-      "description": "This is another parameter that will be passed to the service."
-    }
-  ]
+   "catalog":[
+      {
+         "name":"Geo Processing Example",
+         "type":"terria-json",
+         "url":"https://putsreq.com/PK2GvS6jHfWhlBmkadrG",
+         "inputs":[
+            {
+               "id":"position",
+               "type":"point",
+               "name":"Position",
+               "description":"The position to pass to the service.",
+               "formatter":"longitudeCommaLatitude"
+            },
+            {
+               "id":"someOtherParameter",
+               "type":"string",
+               "name":"Some Other Parameter",
+               "description":"This is another parameter that will be passed to the service."
+            }
+         ]
+      }
+   ]
 }
