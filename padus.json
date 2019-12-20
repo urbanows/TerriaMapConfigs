@@ -6,7 +6,10 @@
     "gis1.usgs.gov",
     "basemap.nationalmap.gov",
     "carto.nationalmap.gov",
-    "geocode.arcgis.com"
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com"
+
   ],
 
   "catalog": [
