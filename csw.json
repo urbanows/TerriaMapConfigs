@@ -1,7 +1,7 @@
 {
     "corsDomains": [
         "www.sciencebase.gov",
-        "raw.githubusercontent.com",
+        "raw.githubusercontent.com"
     ],
     "homeCamera": {
     "north": 59,
