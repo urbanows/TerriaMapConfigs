@@ -26,7 +26,18 @@
             {
               "name": "Dislcaimer",
               "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
-            }
+            },
+          {
+          "name": "NPN WPS Test",
+          "type": "wps-getCapabilities",
+          "url": "https://geoserver-dev.usanpn.org/geoserver/ows?service=wps&version=1.0.0&request=GetCapabilities",
+          "description": "[White-tailed Antelope Squirrel (Ammospermophilus leucurus) mWTASx_CONUS_2001v1 Habitat Map](https://www.sciencebase.gov/catalog/item/58fa8104e4b0b7ea54525c23)",
+          "dataCustodian": "[US Geological Survey](https://www.usgs.gov/)",
+          "info": [
+            {
+              "name": "Dislcaimer",
+              "content": "Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
+            }            
           ]
         }
       ]
