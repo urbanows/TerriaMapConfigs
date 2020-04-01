@@ -1,0 +1,59 @@
+{
+  "catalog": [{
+    "name": "COVID-19 Cases",
+    "type": "group",
+    "isOpen": true,
+    "items": [{
+        "name": "USGS Locations",
+        "type": "geojson",
+        "isHidden": false,
+        "isShown": true,
+        "forceProxy": true,
+        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locations.geojson",
+      },
+      {
+        "name": "COVID Cases",
+        "description": "",
+        "info": [],
+        "isUserSupplied": true,
+        "isPromoted": false,
+        "isHidden": false,
+        "forceProxy": false,
+        "customProperties": {},
+        "id": "Root Group/User-Added Data/0",
+        "shortReportSections": [],
+        "isLoading": false,
+        "isWaitingForDisclaimer": false,
+        "hideSource": false,
+        "nameInCatalog": "COVID Cases",
+        "nowViewingIndex": 0,
+        "rectangle": {
+          "west": -2.7571178809763897,
+          "south": 0.34210567927650753,
+          "east": -1.2252875668437389,
+          "north": 1.131100109305654
+        },
+        "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases_US/FeatureServer/0",
+        "isEnabled": true,
+        "isShown": true,
+        "isLegendVisible": true,
+        "displayChoicesBeforeLegend": false,
+        "isEnableable": true,
+        "isMappable": true,
+        "showsInfo": true,
+        "maximumShownFeatureInfos": 100,
+        "useStyleInformationFromService": true,
+        "zoomOnEnable": false,
+        "dateFormat": {},
+        "useOwnClock": false,
+        "dataUrl": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases_US/FeatureServer/0",
+        "dataUrlType": "direct",
+        "layerDef": "1=1",
+        "type": "esri-featureServer",
+        "parents": [
+          "Root Group/User-Added Data"
+        ]
+      }
+    ]
+  }]
+}
