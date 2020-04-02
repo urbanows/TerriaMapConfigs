@@ -1,18 +1,47 @@
 {
+  "baseMapName": "OpenStreetMap",
+  "viewerMode": "2d",
   "catalog": [{
     "name": "COVID-19 Cases",
     "type": "group",
     "isOpen": true,
     "items": [{
         "name": "USGS Locations",
-        "type": "geojson",
+        "type": "csv",
         "isHidden": false,
         "isShown": true,
         "forceProxy": true,
-        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locations.geojson",
+        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locationCovidCounties.csv",
+        "tableStyle": {
+          "dataVariable": "Deaths",
+          "scale": 2,
+          "scaleByValue": true,
+          "featureInfoFields": {
+            "LocationName": "Location",
+            "CountyName": "County",
+            "Cases": "County Cases",
+            "Deaths": "County Deaths"
+          }
+        }
       },
       {
-        "name": "COVID Cases",
+        "name": "Governmental Unit Boundaries",
+        "isOpen": false,
+        "isHidden": false,
+        "description": "The USGS Governmental Unit Boundaries service from The National Map (TNM) represents major civil areas for the Nation, including States or Territories, counties (or equivalents), Federal and Native American areas, congressional districts, minor civil divisions, incorporated places (such as cities and towns), and unincorporated places. Boundaries data are useful for understanding the extent of jurisdictional or administrative areas for a wide range of applications, including mapping or managing resources, and responding to natural disasters. Boundaries data also include extents of forest, grassland, park, wilderness, wildlife, and other reserve areas useful for recreational activities, such as hiking and backpacking. Boundaries data are acquired from a variety of government sources. The data represents the source data with minimal editing or review by USGS. Please refer to the feature-level metadata for information on the data source. The National Map boundaries data is commonly combined with other data themes, such as elevation, hydrography, structures, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain boundaries data in either Esri File Geodatabase or Shapefile formats. For additional information on the boundaries data model, go to http://nationalmap.gov/boundaries.html. ",
+        "type": "wms-getCapabilities",
+        "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer"
+      },
+      {
+        "name": "Transportation",
+        "isOpen": false,
+        "isHidden": false,
+        "description": "The USGS Transportation service from The National Map (TNM) is based on TIGER/Line data provided through U.S. Census Bureau and road data from U.S. Forest Service. Some of the TIGER/Line data includes limited corrections done by USGS. Transportation data consists of roads, railroads, trails, airports, and other features associated with the transport of people or commerce. The data include the name or route designator, classification, and location. Transportation data support general mapping and geographic information system technology analysis for applications such as traffic safety, congestion mitigation, disaster planning, and emergency response. The National Map transportation data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and structures, to produce general reference base maps. The National Map download client allows free downloads of public domain transportation data in either Esri File Geodatabase or Shapefile formats. For additional information on the transportation data model, go to http://nationalmap.gov/transport.html. ",
+        "type": "wms-getCapabilities",
+        "url": "https://carto.nationalmap.gov/arcgis/services/transportation/MapServer/WMSServer"
+      },
+      {
+        "name": "CSSE COVID Cases",
         "description": "",
         "info": [],
         "isUserSupplied": true,
@@ -35,7 +64,7 @@
         },
         "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases_US/FeatureServer/0",
         "isEnabled": true,
-        "isShown": true,
+        "isShown": false,
         "isLegendVisible": true,
         "displayChoicesBeforeLegend": false,
         "isEnableable": true,
