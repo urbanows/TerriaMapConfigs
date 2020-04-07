@@ -1,128 +1,120 @@
 {
-  "baseMapName": "OpenStreetMap",
-  "viewerMode": "2d",
   "catalog": [{
     "name": "COVID-19 Cases",
     "type": "group",
     "isOpen": true,
-    "items": [{
+    "items": [
+      {
+          "name": "Counties",
+          "type": "wms",
+          "isHidden": false,
+          "isEnabled": true,
+          "isShown": true,
+          "isEsri": true,
+          "forceProxy": false,
+          "isLegendVisible": false,
+          "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer",
+          "layers": "3"
+      },
+      {
+          "name": "COVID Deaths per 1000 Confirmed",
+          "type": "wms",
+          "isHidden": false,
+          "isEnabled": true,
+          "isShown": false,
+          "forceProxy": false,
+          "isLegendVisible": false,
+          "parameters": {
+            "version": "1.3.0",
+            "exceptions": "XML",
+            "IN_DATE": "04-05-2020"
+          },
+          "url": "https://gis.genasys.com/mapserver",
+          "layers": "virus-deaths-per-confirmed-date,virus-deaths-per-confirmed-county-date"
+      },
+      {
+          "name": "COVID Daily Change in Cases",
+          "type": "wms",
+          "isHidden": false,
+          "isEnabled": true,
+          "isShown": true,
+          "forceProxy": false,
+          "isLegendVisible": false,
+          "parameters": {
+            "version": "1.3.0",
+            "exceptions": "XML",
+            "IN_DATE": "04-05-2020"
+          },
+          "url": "https://gis.genasys.com/mapserver",
+          "layers": "virus-confirmed-change-date,virus-confirmed-county-change-date"
+        },
+        {
+        "name": "COVID Virus Deaths",
+        "type": "wms",
+        "isHidden": false,
+        "isShown": false,
+        "isEnabled": true,
+        "forceProxy": false,
+        "isLegendVisible": false,
+        "parameters": {
+          "version": "1.3.0",
+          "exceptions": "XML"
+        },
+        "url": "https://gis.genasys.com/mapserver",
+        "layers": "virus-deaths"
+      },
+      {
+        "name": "COVID Virus Deaths - County",
+        "type": "wms",
+        "isHidden": false,
+        "isEnabled": true,
+        "isShown": false,
+        "forceProxy": false,
+        "isLegendVisible": false,
+        "parameters": {
+          "version": "1.3.0",
+          "exceptions": "XML"
+        },
+        "url": "https://gis.genasys.com/mapserver",
+        "layers": "virus-deaths-county"
+      },
+      {
+        "name": "COVID Virus Cases",
+        "type": "wms",
+        "isHidden": false,
+        "isEnabled": true,
+        "isShown": true,
+        "forceProxy": false,
+        "isLegendVisible": false,
+        "parameters": {
+          "version": "1.3.0",
+          "exceptions": "XML"
+        },
+        "url": "https://gis.genasys.com/mapserver",
+        "layers": "virus-confirmed"
+      },
+      {
+        "name": "COVID Virus Cases - County",
+        "type": "wms",
+        "isHidden": false,
+        "isEnabled": true,
+        "isShown": false,
+        "forceProxy": false,
+        "isLegendVisible": false,
+        "parameters": {
+          "version": "1.3.0",
+          "exceptions": "XML"
+        },
+        "url": "https://gis.genasys.com/mapserver",
+        "layers": "virus-confirmed-county"
+      },
+      {
         "name": "USGS Locations",
-        "type": "csv",
+        "type": "geojson",
         "isHidden": false,
         "isShown": true,
         "forceProxy": true,
-        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locationCovidCounties.csv",
-        "tableStyle": {
-          "dataVariable": "Cases",
-          "colorMap": "blue-red",
-          "scale": 2,
-          "scaleByValue": true,
-          "featureInfoFields": {
-            "LocationName": "Location",
-            "CountyName": "County",
-            "Cases": "County Cases",
-            "Deaths": "County Deaths"
-          }
-        }
-      },
-      {
-        "name": "Governmental Unit Boundaries",
-        "isOpen": false,
-        "isHidden": false,
-        "description": "The USGS Governmental Unit Boundaries service from The National Map (TNM) represents major civil areas for the Nation, including States or Territories, counties (or equivalents), Federal and Native American areas, congressional districts, minor civil divisions, incorporated places (such as cities and towns), and unincorporated places. Boundaries data are useful for understanding the extent of jurisdictional or administrative areas for a wide range of applications, including mapping or managing resources, and responding to natural disasters. Boundaries data also include extents of forest, grassland, park, wilderness, wildlife, and other reserve areas useful for recreational activities, such as hiking and backpacking. Boundaries data are acquired from a variety of government sources. The data represents the source data with minimal editing or review by USGS. Please refer to the feature-level metadata for information on the data source. The National Map boundaries data is commonly combined with other data themes, such as elevation, hydrography, structures, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain boundaries data in either Esri File Geodatabase or Shapefile formats. For additional information on the boundaries data model, go to http://nationalmap.gov/boundaries.html. ",
-        "type": "wms-getCapabilities",
-        "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer"
-      },
-      {
-        "name": "Transportation",
-        "isOpen": false,
-        "isHidden": false,
-        "description": "The USGS Transportation service from The National Map (TNM) is based on TIGER/Line data provided through U.S. Census Bureau and road data from U.S. Forest Service. Some of the TIGER/Line data includes limited corrections done by USGS. Transportation data consists of roads, railroads, trails, airports, and other features associated with the transport of people or commerce. The data include the name or route designator, classification, and location. Transportation data support general mapping and geographic information system technology analysis for applications such as traffic safety, congestion mitigation, disaster planning, and emergency response. The National Map transportation data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and structures, to produce general reference base maps. The National Map download client allows free downloads of public domain transportation data in either Esri File Geodatabase or Shapefile formats. For additional information on the transportation data model, go to http://nationalmap.gov/transport.html. ",
-        "type": "wms-getCapabilities",
-        "url": "https://carto.nationalmap.gov/arcgis/services/transportation/MapServer/WMSServer"
-      },
-      {
-        "name": "CSSE COVID Cases",
-        "description": "",
-        "info": [],
-        "isUserSupplied": true,
-        "isPromoted": false,
-        "isHidden": false,
-        "forceProxy": false,
-        "customProperties": {},
-        "id": "Root Group/User-Added Data/0",
-        "shortReportSections": [],
-        "isLoading": false,
-        "isWaitingForDisclaimer": false,
-        "hideSource": false,
-        "nameInCatalog": "COVID Cases",
-        "nowViewingIndex": 0,
-        "rectangle": {
-          "west": -2.7571178809763897,
-          "south": 0.34210567927650753,
-          "east": -1.2252875668437389,
-          "north": 1.131100109305654
-        },
-        "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases_US/FeatureServer/0",
-        "isEnabled": true,
-        "isShown": false,
-        "isLegendVisible": true,
-        "displayChoicesBeforeLegend": false,
-        "isEnableable": true,
-        "isMappable": true,
-        "showsInfo": true,
-        "maximumShownFeatureInfos": 100,
-        "useStyleInformationFromService": true,
-        "zoomOnEnable": false,
-        "dateFormat": {},
-        "useOwnClock": false,
-        "dataUrl": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases_US/FeatureServer/0",
-        "dataUrlType": "direct",
-        "layerDef": "1=1",
-        "type": "esri-featureServer",
-        "parents": [
-          "Root Group/User-Added Data"
-        ]
-      },
-      {
-        "name": "Emergency Measures Status",
-        "description": "Information on USA state emergency measures in response to COVID-19, including information on disaster declarations, EOC activation, and restrictions and closures of large crowds, nursing homes, schools, restaurants, and bars.",
-        "info": [],
-        "isUserSupplied": false,
-        "isPromoted": false,
-        "isHidden": false,
-        "forceProxy": false,
-        "customProperties": {},
-        "id": "Root Group/User-Added Data/04d9fbaced8a471b886cd9ab18d1cbff_0.geojson",
-        "shortReportSections": [],
-        "isLoading": false,
-        "isWaitingForDisclaimer": false,
-        "hideSource": false,
-        "nameInCatalog": "Emergency Measures Status",
-        "nowViewingIndex": 1,
-        "rectangle": [
-          -178.216554964,
-          -14.373554369,
-          179.775936304,
-          71.3514360830001
-        ],
-        "url": "https://opendata.arcgis.com/datasets/04d9fbaced8a471b886cd9ab18d1cbff_0.geojson",
-        "isEnabled": true,
-        "isShown": true,
-        "isLegendVisible": true,
-        "displayChoicesBeforeLegend": false,
-        "isEnableable": true,
-        "isMappable": true,
-        "showsInfo": true,
-        "maximumShownFeatureInfos": 100,
-        "zoomOnEnable": false,
-        "dateFormat": {},
-        "useOwnClock": false,
-        "type": "geojson",
-        "style": {
-          "stroke": "#ff0000",
-          "fill-opacity": 0.5
-        }
+        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locations.geojson",
       }
     ]
   }]
