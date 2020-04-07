@@ -1,4 +1,4 @@
-Fips,Number,lon,lat,StreetAddress,City,State,ZipCode,LocationName,LocationType,CountyName
+fips,Number,lon,lat,StreetAddress,City,State,ZipCode,LocationName,LocationType,CountyName
 02020,723492,-149.803646,61.187887,4210 University Drive,Anchorage,AK,99508,Alaska Climate Adaptation Science Center,Science Center,Anchorage
 04005,721284,-111.6326899,35.2160194,2255 N. Gemini Drive,Flagstaff,AZ,86001,Astrogeology Science Center,Science Center,Coconino
 04005,723412,-111.6326899,35.2160194,2255 N. Gemini Drive,Flagstaff,AZ,86001,"Southwest Biological Science Center - Flagstaff, AZ, Research Station",Field Station,Coconino
