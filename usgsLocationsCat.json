@@ -114,6 +114,11 @@
         "isHidden": false,
         "isShown": true,
         "forceProxy": true,
+        "style":
+        {
+          "marker-size": "small",
+          "marker-color": "#009a00"
+        },
         "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locations.geojson",
       }
     ]
