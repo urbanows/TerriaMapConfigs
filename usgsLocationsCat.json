@@ -3,19 +3,8 @@
     "name": "COVID-19 Cases",
     "type": "group",
     "isOpen": true,
+    "preserveOrder": true,
     "items": [
-      {
-          "name": "Counties",
-          "type": "wms",
-          "isHidden": false,
-          "isEnabled": true,
-          "isShown": true,
-          "isEsri": true,
-          "forceProxy": false,
-          "isLegendVisible": false,
-          "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer",
-          "layers": "3"
-      },
       {
           "name": "COVID Deaths per 1000 Confirmed",
           "type": "wms",
@@ -24,6 +13,7 @@
           "isShown": false,
           "forceProxy": false,
           "isLegendVisible": false,
+          "nowViewingIndex": 0,
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
@@ -40,6 +30,7 @@
           "isShown": true,
           "forceProxy": false,
           "isLegendVisible": false,
+          "nowViewingIndex": 1,
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
@@ -56,6 +47,9 @@
         "isEnabled": true,
         "forceProxy": false,
         "isLegendVisible": false,
+        "hideLayerAfterMinScaleDenominator": true,
+        "minScaleDenominator": "50000",
+        "nowViewingIndex": 2,
         "parameters": {
           "version": "1.3.0",
           "exceptions": "XML"
@@ -71,6 +65,7 @@
         "isShown": false,
         "forceProxy": false,
         "isLegendVisible": false,
+        "nowViewingIndex": 3,
         "parameters": {
           "version": "1.3.0",
           "exceptions": "XML"
@@ -83,9 +78,12 @@
         "type": "wms",
         "isHidden": false,
         "isEnabled": true,
-        "isShown": true,
+        "isShown": false,
         "forceProxy": false,
         "isLegendVisible": false,
+        "hideLayerAfterMinScaleDenominator": true,
+        "minScaleDenominator": "50000",
+        "nowViewingIndex": 4,
         "parameters": {
           "version": "1.3.0",
           "exceptions": "XML"
@@ -101,6 +99,7 @@
         "isShown": false,
         "forceProxy": false,
         "isLegendVisible": false,
+        "nowViewingIndex": 5,
         "parameters": {
           "version": "1.3.0",
           "exceptions": "XML"
@@ -109,17 +108,106 @@
         "layers": "virus-confirmed-county"
       },
       {
+        "name": "US County COVID",
+        "type": "csv",
+        "isHidden": false,
+        "isShown": false,
+        "isCsvForCharting": true,
+        "isMappable": false,
+        "url": "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv",
+        "tableStyle": {
+          "dataVariable": "cases"
+        }
+      },
+      {
         "name": "USGS Locations",
         "type": "geojson",
         "isHidden": false,
         "isShown": true,
         "forceProxy": true,
+        "nowViewingIndex": 6,
         "style":
         {
           "marker-size": "small",
           "marker-color": "#009a00"
         },
         "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locations.geojson",
+      },
+      {
+        "name": "USGS Locations w/ Summary",
+        "type": "csv",
+        "isHidden": false,
+        "isShown": false,
+        "forceProxy": true,
+        "isCsvForCharting": true,
+        "isLegendVisible": false,
+        "nowViewingIndex": 7,
+        "url": "https://raw.githubusercontent.com/urbanows/TerriaMapConfigs/master/locationCovidCounties.csv",
+        "tableStyle": {
+          "dataVariable": "Confirmed",
+          "colorMap": "blue-red",
+          "scale": 2,
+          "scaleByValue": true,
+          "featureInfoFields": {
+            "LocationName": "Location",
+            "CountyName": "County",
+            "Confirmed": "County Cases",
+            "Deaths": "County Deaths"
+          }
+        }
+      },
+      {
+          "name": "Counties",
+          "type": "wms",
+          "isHidden": false,
+          "isEnabled": true,
+          "isShown": true,
+          "isEsri": true,
+          "forceProxy": false,
+          "isLegendVisible": false,
+          "nowViewingIndex": 8,
+          "url": "https://carto.nationalmap.gov/arcgis/services/govunits/MapServer/WMSServer",
+          "layers": "3"
+      },
+      {
+        "name": "Emergency Measures Status",
+        "description": "Information on USA state emergency measures in response to COVID-19, including information on disaster declarations, EOC activation, and restrictions and closures of large crowds, nursing homes, schools, restaurants, and bars.",
+        "info": [],
+        "isUserSupplied": false,
+        "isPromoted": false,
+        "isHidden": false,
+        "forceProxy": false,
+        "customProperties": {},
+        "id": "Root Group/User-Added Data/04d9fbaced8a471b886cd9ab18d1cbff_0.geojson",
+        "shortReportSections": [],
+        "isLoading": false,
+        "isWaitingForDisclaimer": false,
+        "hideSource": false,
+        "nameInCatalog": "Emergency Measures Status",
+        "nowViewingIndex": 9,
+        "rectangle": [
+          -178.216554964,
+          -14.373554369,
+          179.775936304,
+          71.3514360830001
+        ],
+        "url": "https://opendata.arcgis.com/datasets/04d9fbaced8a471b886cd9ab18d1cbff_0.geojson",
+        "isEnabled": true,
+        "isShown": true,
+        "isLegendVisible": false,
+        "displayChoicesBeforeLegend": false,
+        "isEnableable": true,
+        "isMappable": true,
+        "showsInfo": true,
+        "maximumShownFeatureInfos": 100,
+        "zoomOnEnable": false,
+        "dateFormat": {},
+        "useOwnClock": false,
+        "type": "geojson",
+        "style": {
+          "stroke": "#ff0000",
+          "fill-opacity": 0.1
+        }
       }
     ]
   }]
