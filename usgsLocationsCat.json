@@ -17,7 +17,7 @@
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
-            "IN_DATE": "04-14-2020"
+            "IN_DATE": "04-15-2020"
           },
           "url": "https://gis.genasys.com/mapserver",
           "layers": "virus-deaths-per-confirmed-date,virus-deaths-per-confirmed-county-date"
@@ -34,7 +34,7 @@
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
-            "IN_DATE": "04-14-2020"
+            "IN_DATE": "04-15-2020"
           },
           "url": "https://gis.genasys.com/mapserver",
           "layers": "virus-confirmed-change-date,virus-confirmed-county-change-date"
