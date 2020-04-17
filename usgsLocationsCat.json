@@ -6,7 +6,7 @@
     "preserveOrder": true,
     "items": [
       {
-          "name": "COVID Deaths per 1000 Confirmed",
+          "name": "Genasys/CSSE COVID Deaths per 1000 Confirmed",
           "type": "wms",
           "isHidden": false,
           "isEnabled": true,
@@ -17,13 +17,13 @@
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
-            "IN_DATE": "04-15-2020"
+            "IN_DATE": "04-16-2020"
           },
           "url": "https://gis.genasys.com/mapserver",
           "layers": "virus-deaths-per-confirmed-date,virus-deaths-per-confirmed-county-date"
       },
       {
-          "name": "COVID Daily Change in Cases",
+          "name": "Genasys/CSSE COVID Daily Change in Cases",
           "type": "wms",
           "isHidden": false,
           "isEnabled": true,
@@ -34,13 +34,13 @@
           "parameters": {
             "version": "1.3.0",
             "exceptions": "XML",
-            "IN_DATE": "04-15-2020"
+            "IN_DATE": "04-16-2020"
           },
           "url": "https://gis.genasys.com/mapserver",
           "layers": "virus-confirmed-change-date,virus-confirmed-county-change-date"
         },
         {
-        "name": "COVID Virus Deaths",
+        "name": "Genasys/CSSE COVID Virus Deaths",
         "type": "wms",
         "isHidden": false,
         "isShown": false,
@@ -58,7 +58,7 @@
         "layers": "virus-deaths"
       },
       {
-        "name": "COVID Virus Deaths - County",
+        "name": "Genasys/CSSE COVID Virus Deaths - County",
         "type": "wms",
         "isHidden": false,
         "isEnabled": true,
@@ -74,7 +74,7 @@
         "layers": "virus-deaths-county"
       },
       {
-        "name": "COVID Virus Cases",
+        "name": "Genasys/CSSE COVID Virus Cases",
         "type": "wms",
         "isHidden": false,
         "isEnabled": true,
@@ -92,7 +92,7 @@
         "layers": "virus-confirmed"
       },
       {
-        "name": "COVID Virus Cases - County",
+        "name": "Genasys/CSSE COVID Virus Cases - County",
         "type": "wms",
         "isHidden": false,
         "isEnabled": true,
@@ -108,7 +108,7 @@
         "layers": "virus-confirmed-county"
       },
       {
-        "name": "US County COVID",
+        "name": "NY Times - US County COVID",
         "type": "csv",
         "isHidden": false,
         "isShown": false,
@@ -170,7 +170,7 @@
           "layers": "3"
       },
       {
-        "name": "Emergency Measures Status",
+        "name": "Red Cross - Emergency Measures Status",
         "description": "Information on USA state emergency measures in response to COVID-19, including information on disaster declarations, EOC activation, and restrictions and closures of large crowds, nursing homes, schools, restaurants, and bars.",
         "info": [],
         "isUserSupplied": false,
