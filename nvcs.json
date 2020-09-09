@@ -8,14 +8,6 @@
   "viewerMode": "2d",
   "catalog": [
     {
-      "name": "USNVC Subclass",
-      "type": "wms",
-      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-      "layers": "subclass",
-      "isEnabled": true,
-      "isLegendVisible": false
-    },
-    {
       "name": "USNVC Class",
       "type": "wms",
       "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
@@ -24,19 +16,11 @@
       "isLegendVisible": false
     },
     {
-      "name": "USNVC Division",
+      "name": "USNVC Subclass",
       "type": "wms",
       "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-      "layers": "division",
-      "isEnabled": true,
-      "isLegendVisible": false
-    },
-    {
-      "name": "Ecological System",
-      "type": "wms",
-      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-      "layers": "ecological_system",
-      "isEnabled": true,
+      "layers": "subclass",
+      "isEnabled": false,
       "isLegendVisible": false
     },
     {
@@ -44,15 +28,15 @@
       "type": "wms",
       "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
       "layers": "formation",
-      "isEnabled": true,
+      "isEnabled": false,
       "isLegendVisible": false
     },
     {
-      "name": "USNVC Group",
+      "name": "USNVC Division",
       "type": "wms",
       "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-      "layers": "group",
-      "isEnabled": true,
+      "layers": "division",
+      "isEnabled": false,
       "isLegendVisible": false
     },
     {
@@ -60,7 +44,23 @@
       "type": "wms",
       "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
       "layers": "macrogroup",
-      "isEnabled": true,
+      "isEnabled": false,
+      "isLegendVisible": false
+    },
+    {
+      "name": "USNVC Group",
+      "type": "wms",
+      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+      "layers": "group",
+      "isEnabled": false,
+      "isLegendVisible": false
+    },
+    {
+      "name": "Ecological System",
+      "type": "wms",
+      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+      "layers": "ecological_system",
+      "isEnabled": false,
       "isLegendVisible": false
     }
   ]
