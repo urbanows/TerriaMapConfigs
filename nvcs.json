@@ -14,46 +14,10 @@
       "type": "group",
       "items": [
         {
-          "name": "USNVC Class",
+          "name": "Ecological System",
           "type": "wms",
           "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "class",
-          "isEnabled": true,
-          "isShown": true,
-          "isLegendVisible": false
-        },
-        {
-          "name": "USNVC Subclass",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "subclass",
-          "isEnabled": true,
-          "isShown": false,
-          "isLegendVisible": false
-        },
-        {
-          "name": "USNVC Formation",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "formation",
-          "isEnabled": true,
-          "isShown": false,
-          "isLegendVisible": false
-        },
-        {
-          "name": "USNVC Division",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "division",
-          "isEnabled": true,
-          "isShown": false,
-          "isLegendVisible": false
-        },
-        {
-          "name": "USNVC Macrogroup",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "macrogroup",
+          "layers": "ecological_system",
           "isEnabled": true,
           "isShown": false,
           "isLegendVisible": false
@@ -68,12 +32,48 @@
           "isLegendVisible": false
         },
         {
-          "name": "Ecological System",
+          "name": "USNVC Macrogroup",
           "type": "wms",
           "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
-          "layers": "ecological_system",
+          "layers": "macrogroup",
           "isEnabled": true,
           "isShown": false,
+          "isLegendVisible": false
+        },
+        {
+          "name": "USNVC Division",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+          "layers": "division",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false
+        },
+        {
+          "name": "USNVC Formation",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+          "layers": "formation",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false
+        },
+        {
+          "name": "USNVC Subclass",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+          "layers": "subclass",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false
+        },
+        {
+          "name": "USNVC Class",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+          "layers": "class",
+          "isEnabled": true,
+          "isShown": true,
           "isLegendVisible": false
         }
       ]
