@@ -1,0 +1,83 @@
+{
+	"homeCamera": {
+		"west": -124,
+			"south": 24,
+			"east": -66,
+			"north": 50
+	},
+		"viewerMode": "2d",
+		"catalog": [
+		{
+			"name": "GAP/LANDFIRE National Terrestrial Ecosystems 2011",
+			"isOpen": true,
+			"preserveOrder": true,
+			"type": "group",
+			"items": [
+			{
+				"name": "Ecological System",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "ecological_system",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false
+			},
+			{
+				"name": "USNVC Group",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "group",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false,
+				"featureInfoTemplate": "<p>{{pixel_value}} W/m2</p><p>document.write(5 + 6);</p><object data='https://putsreq.com/hRf1NIR0WiQWdFEz6rBY'>Your browser doesn’t support the object tag. </object>"        
+			},
+			{
+				"name": "USNVC Macrogroup",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "macrogroup",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false
+			},
+			{
+				"name": "USNVC Division",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "division",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false
+			},
+			{
+				"name": "USNVC Formation",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "formation",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false
+			},
+			{
+				"name": "USNVC Subclass",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "subclass",
+				"isEnabled": true,
+				"isShown": false,
+				"isLegendVisible": false
+			},
+			{
+				"name": "USNVC Class",
+				"type": "wms",
+				"url": "https://www.sciencebase.gov/geoserver/nvcs/wms",
+				"layers": "class",
+				"isEnabled": true,
+				"isShown": true,
+				"isLegendVisible": false
+			}
+			]
+		}
+	]
+}
