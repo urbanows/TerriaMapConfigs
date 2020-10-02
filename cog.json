@@ -22,8 +22,7 @@
           "isEnabled": true,
           "isShown": true,
           "rectangle": ["-122.6333437", "40.591483", "-122.5152576", "40.6623342"],
-          "url": "https://tiles.rdnt.io/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5e7d36c1e4b01d5092751e09%2FWhiskeytown_2019-06-03_DSM_25cm_hll.tif"
-        }
+          "url": "https://api.cogeo.xyz/cog/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5e7d36c1e4b01d5092751e09%2FWhiskeytown_2019-06-03_DSM_25cm_hll.tif"        }
       ]
     }
   ]
