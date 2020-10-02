@@ -1,0 +1,30 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+    "north": 37,
+    "east": -119,
+    "south": 35,
+    "west": -124
+  },
+  "catalog": [
+    {
+      "name": "COG Group",
+      "type": "group",
+      "items": [
+
+        {
+          "name": "COG S3 Test",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "url": "https://73yd4fro0b.execute-api.us-west-2.amazonaws.com/dynamic-tiler/mosaic/92b04d30080eb57947e6dd512d5ac9f5ad7155dc816fc31151f8e399/tiles/{z}/{x}/{y}?bands=red%2Cgreen%2Cblue&color_formula=gamma%20RGB%202.7%2C%20saturation%201.5%2C%20sigmoidal%20RGB%2015%200.55"
+        }
+      ]
+    }
+  ]
+}
