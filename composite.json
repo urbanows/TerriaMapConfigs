@@ -1,0 +1,25 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "catalog":[
+      {
+         "name":"PADUS Multi-scale Composite",
+         "type":"composite",
+         "legendUrl":"https://gis1.usgs.gov/arcgis/rest/services/padus2/manager_name/MapServer/legend",
+         "items":[
+            {
+               "name":"0Agency Type (Local Scale)",
+               "type":"esri-mapServer",
+               "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/manager_type_dynamic/MapServer/"
+            },
+            {
+               "name":"Agency Type (National Scale)",
+               "type":"esri-mapServer",
+               "url":"https://gis1.usgs.gov/arcgis/rest/services/padus2/manager_name/MapServer/"
+            }
+         ]
+      }
+   ]
+}
