@@ -1,0 +1,29 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+    "north": 37,
+    "east": -119,
+    "south": 35,
+    "west": -124
+  },
+  "catalog": [
+    {
+      "name": "URL Template Group",
+      "type": "group",
+      "items": [
+        {
+          "name": "Elevation Tiles",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "url": "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/${z}/${x}/${y}.tif"
+        }
+      ]
+    }
+  ]
+}
