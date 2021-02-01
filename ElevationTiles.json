@@ -21,7 +21,7 @@
           "isEnabled": true,
           "isShown": true,
           "treat404AsError": false,
-          "url": "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/${z}/${x}/${y}.tif"
+          "url": "https://s3.amazonaws.com/elevation-tiles-prod/geotiff/{z}/{x}/{y}.tif"
         }
       ]
     }
