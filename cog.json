@@ -22,14 +22,6 @@
           "isShown": true,
           "rectangle": ["-122.6333437", "40.591483", "-122.5152576", "40.6623342"],
           "url": "https://api.cogeo.xyz/cog/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5e7d36c1e4b01d5092751e09%2FWhiskeytown_2019-06-03_DSM_25cm_hll.tif"        
-        },
-        {
-          "name": "Convert TIF to PNG",
-          "type": "url-template",
-          "zoomOnEnable": true,
-          "isEnabled": true,
-          "isShown": true,
-          "url": "https://api.cogeo.xyz/cog/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fs3.amazonaws.com%2Felevation-tiles-prod%2Fgeotiff%2F${z}%2F${x}%2F${y}.tif"
         }
       ]
     }
