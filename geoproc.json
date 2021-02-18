@@ -1,0 +1,28 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+    "north": 59,
+    "east": -56,
+    "south": 9,
+    "west": -136
+  },
+  "catalog": [
+    { "name": "Analysis Tools",
+      "type": "group",
+      "description": "The Analysis Tools provide time-series data for selected points (pixels) or regions (polygons). \n\nThe \"Mean for point or region\" function returns the mean value for the vegetation fractional cover fractions and precipitation for a given region or pixel.\n\nThe \"Proportion of region within a Total Vegetation Cover range\" function returns the proportion of a given region within a range of Total Vegetation Cover that you can select. \n\nSimply click on the function and follow the instructions. ",
+      "preserveOrder": true,
+      "items": [
+        {
+          "name": "Mean for point or region (Monthly)",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
+          "type": "wps",
+          "identifier": "geometryDrill",
+          "description": "This function returns the mean value for the monthly vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. "
+        }
+      ]
+    }
+  ]
+}
