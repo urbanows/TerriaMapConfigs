@@ -21,7 +21,7 @@
           "isEnabled": true,
           "isShown": true,
           "treat404AsError": false,
-          "url": "https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=212&basisOfRecord=MACHINE_OBSERVATION&years=2015,2017&bin=square&squareSize=128&style=purpleYellow-noborder.poly"
+          "url": "https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=212&basisOfRecord=OBSERVATION&years=2015,2016,2017&bin=square&squareSize=128&style=purpleYellow-noborder.poly"
         }
       ]
     }
