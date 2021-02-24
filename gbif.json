@@ -1,0 +1,29 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+    "north": 37,
+    "east": -119,
+    "south": 35,
+    "west": -124
+  },
+  "catalog": [
+    {
+      "name": "URL Template Group",
+      "type": "group",
+      "items": [
+        {
+          "name": "GBIF Map",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "url": "https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?taxonKey=212&basisOfRecord=MACHINE_OBSERVATION&years=2015,2017&bin=square&squareSize=128&style=purpleYellow-noborder.poly"
+        }
+      ]
+    }
+  ]
+}
