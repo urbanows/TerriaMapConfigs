@@ -1,8 +1,4 @@
 {
-    "corsDomains": [
-        "www.sciencebase.gov",
-        "raw.githubusercontent.com"
-    ],
     "homeCamera": {
     "north": 37,
     "east": -119,
