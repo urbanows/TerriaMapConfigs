@@ -1,0 +1,50 @@
+{
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "sciencebase.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov",
+    "carto.nationalmap.gov",
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com"
+
+  ],
+
+  "catalog": [
+    {
+      "name": "FWS Critical Habitat for Threatened and Endangered",
+      "isOpen": true,
+      "preserveOrder": true,
+      "type": "group",
+      "items": [
+         {
+          "name": "FWS Critical Habitat for Threatened and Endangered Species Dataset",
+          "description": "When a species is proposed for listing as endangered or threatened under the Endangered Species Act, the U.S. Fish and Wildlife Service must consider whether there are areas of habitat believed to be essential the species conservation. Those areas may be proposed for designation as critical habitat. Critical habitat is a term defined and used in the Act. It is a specific geographic area(s) that contains features essential for the conservation of a threatened or endangered species and that may require special management and protection. Critical habitat may include an area that is not currently occupied by the species but that will be needed for its recovery. An area is designated as critical habitat after the Service publishes a proposed Federal regulation in the Federal Register and receives and considers public comments on the proposal. The final boundaries of the critical habitat are also published in the Federal Register.",
+          "isOpen": true,
+          "preserveOrder": true,
+          "type": "group",
+          "items": [
+          {
+            "url": "https://sit-tileservice.geoplatform.info/tile/ee1bd9d5_6925_40de_9159_40a0a05461d7/{z}/{x}/{y}.png",
+            "type": "url-template",
+            "name": "Raster Tiles for FWS Critical Habitat for Threatened and Endangered Species Dataset",
+            "maximumNativeZoom": 14,
+            "maximumZoom": 14,
+            "minimumZoom": 0,
+            "opacity": 1
+           }
+          ]
+        }
+      ]
+    }
+  ],
+  "homeCamera": {
+    "west": -125.025,
+    "south": 24.043,
+    "east": -66.797,
+    "north": 49.838
+  },
+  "viewerMode": "2d"
+}
