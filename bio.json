@@ -8,8 +8,13 @@
     "carto.nationalmap.gov",
     "geocode.arcgis.com",
     "fly.maptiles.arcgis.com",
-    "services.arcgisonline.com"
-
+    "services.arcgisonline.com",
+    "tileservice.geoplatform.gov", 
+    "stg-tileservice.geoplatform.gov", 
+    "stg-tileservice.geoplatform.info", 
+    "sit-tileservice.geoplatform.info", 
+    "atlas-stg.geoplatform.gov",
+    "basemap.nationalmap.gov"
   ],
 
   "catalog": [
@@ -30,6 +35,7 @@
             "url": "https://sit-tileservice.geoplatform.info/tile/ee1bd9d5_6925_40de_9159_40a0a05461d7/{z}/{x}/{y}.png",
             "type": "url-template",
             "ignoreUnknownTileErrors": true,
+            "treat403AsError": false,
             "treat404AsError": false,
             "name": "Raster Tiles for FWS Critical Habitat for Threatened and Endangered Species Dataset",
             "maximumNativeZoom": 14,
