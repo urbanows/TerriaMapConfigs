@@ -29,6 +29,8 @@
           {
             "url": "https://sit-tileservice.geoplatform.info/tile/ee1bd9d5_6925_40de_9159_40a0a05461d7/{z}/{x}/{y}.png",
             "type": "url-template",
+            "ignoreUnknownTileErrors": true,
+            "treat404AsError": false,
             "name": "Raster Tiles for FWS Critical Habitat for Threatened and Endangered Species Dataset",
             "maximumNativeZoom": 14,
             "maximumZoom": 14,
