@@ -17,12 +17,11 @@
       "items": [
         {
           "name": "Protected Areas (WDPA)",
-          "type": "url-template",
+          "type": "esri-mapServer",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
-          "rectangle": ["-122.6333437", "40.591483", "-122.5152576", "40.6623342"],
-          "url": "https://data-gis.unep-wcmc.org/server/rest/services/ProtectedSites/The_World_Database_of_Protected_Areas/MapServer/tile/{z}/{x}/{y}"
+          "url": "https://data-gis.unep-wcmc.org/server/rest/services/ProtectedSites/The_World_Database_of_Protected_Areas/MapServer/"
         }
       ]
     }
