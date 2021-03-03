@@ -23,7 +23,7 @@
        "isOpen": true,
        "preserveOrder": true,
        "type": "wms-getCapabilities",
-       "url": "https://mrdata.usgs.gov/services/deposit?request=GetCapabilities&service=WMS&version=1.3.0",
+       "url": "https://mrdata.usgs.gov/services/deposit?request=GetCapabilities&service=WMS&version=1.3.0"
     },
       "name": "FWS Critical Habitat for Threatened and Endangered",
       "isOpen": true,
