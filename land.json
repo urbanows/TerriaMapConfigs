@@ -35,6 +35,14 @@
           "ignoreUnknownTileErrors": true,
           "treat404AsError": false,
           "url": "https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+         },
+         {
+          "name": "USA Topo",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "url": "https://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer/tile/{z}/{x}/{y}"
         }
       ]
     }
