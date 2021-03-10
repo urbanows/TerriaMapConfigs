@@ -43,6 +43,14 @@
           "isEnabled": true,
           "isShown": true,
           "url": "https://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer/tile/{z}/{x}/{y}"
+        },
+         {
+          "name": "Cell Coverage Map",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "url": "https://api.cellmaps.com/tiles/cellmap/{z}/{x}/{y}.png?key=e3547baac90ghfbcdtv2316d40b4a204&llist=3956,4073,7770&map=whistleout"
         }
       ]
     }
