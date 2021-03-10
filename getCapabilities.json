@@ -1,13 +1,13 @@
 {
     "catalog": [
     {
-      "name": "WMS GAP/LANDFIRE National Terrestrial Ecosystems 2011",
+      "name": "Landcover Change Maps",
       "isEnabled": false,
       "isShown": false,
       "isOpen": false,
       "isHidden": false,
       "type": "wms-getCapabilities",
-      "url": "https://www.sciencebase.gov/geoserver/nvcs/wms?"
+      "url": "https://dmsdata.cr.usgs.gov/geoserver/wms?service=WMS"
     }
   ]
 }
