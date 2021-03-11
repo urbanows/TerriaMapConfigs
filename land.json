@@ -54,7 +54,7 @@
         },
         {
           "name": "Mining Claims on Public Land",
-          "type": "url-template",
+          "type": "wms",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
