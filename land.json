@@ -38,7 +38,7 @@
          },
          {
           "name": "USA Topo",
-          "type": "esri-mapServer",
+          "type": "esri-mapServer-group",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
@@ -55,6 +55,7 @@
         {
           "name": "Mining Claims on Public Land",
           "type": "wms",
+          "layers": "pls",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
