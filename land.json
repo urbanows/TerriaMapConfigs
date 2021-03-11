@@ -38,11 +38,11 @@
          },
          {
           "name": "USA Topo",
-          "type": "url-template",
+          "type": "esri-mapServer",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
-          "url": "https://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer/tile/{z}/{x}/{y}"
+          "url": "https://server.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer/WMTS/1.0.0/"
         },
          {
           "name": "Cell Coverage Map",
