@@ -28,7 +28,7 @@
           {
           "name": "USEPA Ecoregions Level IV",
           "type": "wms",
-          "layer": "8,9",
+          "layers": "8,9",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
@@ -44,13 +44,21 @@
           "isShown": true,
           "url": "https://server.arcgisonline.com/arcgis/rest/services/USA_Topo_Maps/MapServer/WMTS/1.0.0/"
         },
-         {
+        {
           "name": "Cell Coverage Map",
           "type": "url-template",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
           "url": "https://api.cellmaps.com/tiles/cellmap/{z}/{x}/{y}.png?key=e3547baac90ghfbcdtv2316d40b4a204&llist=3956,4073,7770&map=whistleout"
+        },
+        {
+          "name": "Mining Claims on Public Land",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "url": "https://mrdata.usgs.gov/services/claim-us?SERVICE=WMS"
         }
       ]
     }
