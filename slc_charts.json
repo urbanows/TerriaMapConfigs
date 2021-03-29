@@ -13,7 +13,7 @@
         "initialTimeSource" : "2100-01-01",
         "idColumns": ["id"],
         //"featureInfoTemplate" : {"template": "<p>GMSL 0.3m Scenario (m).</p><img src='https://quickchart.io/chart?w=128&h=200&c=%7Btype%3A%20%27bar%27%2Cdata%3A%20%7Bdatasets%3A%20%5B%7Bdata%3A%20%5B{{03-LOW}}%5D%7D%2C%7Bdata%3A%20%5B{{03-MED}}%5D%7D%2C%7Bdata%3A%20%5B{{03-HIGH}}%5D%7D%5D%7D%2Coptions%3A%7Blegend%3A%7Bdisplay%3Afalse%7D%7D%7D'></img>",}
-        "featureInfoTemplate": "<p>All train stations have the same x-y plot.</p><img src='https://quickchart.io/chart/render/zm-aea46363-c263-40b4-8ef4-f2520c16d736?data1={{03-LOW}},{{03-MED}},{{03-HIGH}}&test=lll'></img>",
+        "featureInfoTemplate": "<p>GMSL 0.3m Scenario (m).</p><img src='https://quickchart.io/chart/render/zm-aea46363-c263-40b4-8ef4-f2520c16d736?data1={{03-LOW}},{{03-MED}},{{03-HIGH}}&test=lll'></img>",
       }
     ]
 }
