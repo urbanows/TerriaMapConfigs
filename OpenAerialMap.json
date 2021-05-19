@@ -2,12 +2,6 @@
     "corsDomains": [
         "raw.githubusercontent.com"
     ],
-    "homeCamera": {
-      "north": 37,
-      "east": -119,
-      "south": 35,
-      "west": -124
-  },
   "catalog": [
     {
       "name": "Open Aerial Map",
