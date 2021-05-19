@@ -24,12 +24,12 @@
         },
         {
           "name": "Open Aerial Map - Test",
-          "type": "url-template",
+          "type": "wmts",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
           "treat404AsError": false,
-          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/{z}/{x}/{y}"
+          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/wmts"
         }
       ]
     }
