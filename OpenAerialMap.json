@@ -13,7 +13,15 @@
       "name": "Open Aerial Map",
       "type": "group",
       "items": [
-
+        {
+          "name": "Open Aerial Map - Portugal Test",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "url": "https://tiles.openaerialmap.org/60a2415825820c0005e458d9/0/60a2415825820c0005e458da/{z}/{x}/{y}"
+        },
         {
           "name": "Open Aerial Map - Test",
           "type": "url-template",
