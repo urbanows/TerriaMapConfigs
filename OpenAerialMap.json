@@ -2,6 +2,12 @@
     "corsDomains": [
         "raw.githubusercontent.com"
     ],
+    "homeCamera": {
+      "north": 37,
+      "east": -119,
+      "south": 35,
+      "west": -124
+  },
   "catalog": [
     {
       "name": "Open Aerial Map",
@@ -17,6 +23,27 @@
           "tileErrorThresholdBeforeDisabling": 100000,
           "treat404AsError": false,
           "url": "https://tiles.openaerialmap.org/60a2415825820c0005e458d9/0/60a2415825820c0005e458da/{z}/{x}/{y}"
+        },
+        {
+          "name": "Open Aerial Map - WMTS",
+          "type": "wmts",
+          "zoomOnEnable": true,
+          "isEnabled": false,
+          "isShown": false,
+          "ignoreUnknownTileErrors": true,
+          "tileMatrixSetID": "GoogleMapsCompatible",
+          "treat404AsError": false,
+          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/wmts"
+        },
+        {
+          "name": "Open Aerial Map - Test",
+          "type": "wmts",
+          "zoomOnEnable": true,
+          "isEnabled": false,
+          "isShown": false,
+          "ignoreUnknownTileErrors": true,
+          "treat404AsError": false,
+          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/wmts"
         }
       ]
     }
