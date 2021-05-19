@@ -1,0 +1,29 @@
+{
+    "corsDomains": [
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+      "north": 37,
+      "east": -119,
+      "south": 35,
+      "west": -124
+  },
+  "catalog": [
+    {
+      "name": "Open Aerial Map",
+      "type": "group",
+      "items": [
+
+        {
+          "name": "Open Aerial Map - Test",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/{z}/{x}/{y}"
+        }
+      ]
+    }
+  ]
+}
