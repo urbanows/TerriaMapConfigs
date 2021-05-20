@@ -11,11 +11,11 @@
   },
   "catalog": [
     {
-      "name": "Protected Areas",
+      "name": "World Database of Protected Areas",
       "type": "group",
       "items": [
         {
-          "name": "Protected Areas (WDPA)",
+          "name": "World Database of Protected Areas (WDPA)",
           "type": "esri-mapServer",
           "zoomOnEnable": true,
           "isEnabled": true,
