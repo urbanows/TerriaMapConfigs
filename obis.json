@@ -1,0 +1,33 @@
+{
+    "corsDomains": [
+        "www.sciencebase.gov",
+        "raw.githubusercontent.com"
+    ],
+    "homeCamera": {
+    "north": 37,
+    "east": -119,
+    "south": 35,
+    "west": -124
+  },
+  "catalog": [
+    {
+      "name": "GBIF Group",
+      "type": "group",
+      "items": [
+
+        {
+          "name": "OBIS",
+          "type": "url-template",
+          "zoomOnEnable": true,
+          "isEnabled": true,
+          "isShown": true,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          //"rectangle": ["-122.6333437", "40.591483", "-122.5152576", "40.6623342"],
+          "url": "https://api.gbif.org/v2/map/occurrence/density/{z}/{x}/{y}@1x.png?style=purpleYellow.point&networkKey=2b7c7b4f-4d4f-40d3-94de-c28b6fa054a6"
+        }
+      ]
+    }
+  ]
+}
