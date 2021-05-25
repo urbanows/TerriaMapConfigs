@@ -21,6 +21,13 @@
           "type": "wps",
           "identifier": "geometryDrill",
           "description": "This function returns the mean value for the monthly vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. "
+        },
+        {
+          "name": "GAP Landfire Summary",
+          "url": "https://srfs.wr.usgs.gov/arcgis/services/GAPLandfire/GPServer/WPSServer?request=GetCapabilities&service=WPS",
+          "type": "wps",
+          "identifier": "gaplandfire",
+          "description": "This geoprocessing task summarizes a user-defined polygon using the Gap Landfire."
         }
       ]
     }
