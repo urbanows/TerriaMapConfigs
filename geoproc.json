@@ -26,7 +26,7 @@
           "name": "GAP Landfire Summary",
           "url": "https://srfs.wr.usgs.gov/arcgis/services/GAPLandfire/GPServer/WPSServer?request=GetCapabilities&service=WPS",
           "type": "wps",
-          "identifier": "gaplandfire",
+          "identifier": "GAPLandfire",
           "description": "This geoprocessing task summarizes a user-defined polygon using the Gap Landfire."
         }
       ]
