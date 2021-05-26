@@ -19,6 +19,7 @@
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
+          "rectangle": ["-123.1357955932617","44.06402980752063","-123.12257778217115","44.070382117220966"]
           "ignoreUnknownTileErrors": true,
           "tileErrorThresholdBeforeDisabling": 100000,
           "treat404AsError": false,
