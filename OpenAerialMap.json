@@ -19,12 +19,13 @@
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
-          "rectangle": ["-123.1357955932617","44.06402980752063","-123.12257778217115","44.070382117220966"]
           "ignoreUnknownTileErrors": true,
+          "rectangle": ["-123.1357955932617","44.06402980752063","-123.12257778217115","44.070382117220966"],
           "tileErrorThresholdBeforeDisabling": 100000,
           "treat404AsError": false,
-          "url": "https://tiles.openaerialmap.org/58ee7f32cfbcc90010aca455/0/c871ddc8-91b3-461f-bc96-f321f33cf483/{{z}/{x}/{y}"
-        },        {
+          "url": "https://tiles.openaerialmap.org/58ee7f32cfbcc90010aca455/0/c871ddc8-91b3-461f-bc96-f321f33cf483/{z}/{x}/{y}"
+        },
+        {
           "name": "Open Aerial Map - Portugal Test",
           "type": "url-template",
           "zoomOnEnable": true,
@@ -32,6 +33,7 @@
           "isShown": true,
           "ignoreUnknownTileErrors": true,
           "tileErrorThresholdBeforeDisabling": 100000,
+          "rectangle": ["-8.371027838622929","41.264292280192194","-8.366392150791656","41.26731894460752"],
           "treat404AsError": false,
           "url": "https://tiles.openaerialmap.org/60a2415825820c0005e458d9/0/60a2415825820c0005e458da/{z}/{x}/{y}"
         },
@@ -42,17 +44,7 @@
           "isEnabled": false,
           "isShown": false,
           "ignoreUnknownTileErrors": true,
-          "tileMatrixSetID": "GoogleMapsCompatible",
-          "treat404AsError": false,
-          "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/wmts"
-        },
-        {
-          "name": "Open Aerial Map - Test",
-          "type": "wmts",
-          "zoomOnEnable": true,
-          "isEnabled": false,
-          "isShown": false,
-          "ignoreUnknownTileErrors": true,
+          "tileMatrixSetID": "None",
           "treat404AsError": false,
           "url": "https://tiles.openaerialmap.org/6090fceec9594b000512d2ef/0/6090fceec9594b000512d2f0/wmts"
         }
