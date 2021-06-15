@@ -56,7 +56,7 @@
           "treat403AsError": false,
           "treat404AsError": false,
           "clipToRectangle": false,
-          "url": "	https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/0/0/0.pbf",
+          "url": "	https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
