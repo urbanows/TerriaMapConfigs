@@ -1,0 +1,198 @@
+{
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "sciencebase.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov",
+    "carto.nationalmap.gov",
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com"
+  ],
+  "homeCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  },
+  "initialCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  },
+  "viewerMode": "2d",
+  "catalog": [
+    {
+      "name": "Protected Areas Database of the U.S. v2.1",
+      "isOpen": false,
+      "type": "group",
+      "items": [
+        {
+          "name": "Federal Fee Managers",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Protected_Areas_Federal_Fee_Managers/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Federal Fee Managers - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "	https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/0/0/0.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Federal Management Agencies",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protected_Areas_Federal_Management_Agency/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Federal Fee Managers (Authoritative Data)",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Protected_Areas_Fee_Manager/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Protection Status by GAP Status Code",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protected_Areas_by_GAP_Status_Code_PADUS_21/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Manager Name",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protected_Areas_Manager_Name/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Manager Type",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Manager_Type_View/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Proclamation and Other Planning Boundaries",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/Proclamation_and_Other_Planning_Boundaries_View/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Protection Mechanism",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protection_Mechanism_Category/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Public Access",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/Public_Access_new_view_13april2021/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        }
+      ]
+    }
+  ]
+}
