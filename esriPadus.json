@@ -56,7 +56,7 @@
           "treat403AsError": false,
           "treat404AsError": false,
           "clipToRectangle": false,
-          "url": "	https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
@@ -80,7 +80,24 @@
           },
         },
         {
-          "name": "Federal Fee Managers (Authoritative Data)",
+          "name": "Federal Management Agencies - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Management_Agencies/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Federal Fee Managers",
           "isEnabled": true,
           "isShown": false,
           "isPromoted": true,
@@ -97,6 +114,23 @@
           },
         },
         {
+          "name": "Federal Fee Managers - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
           "name": "Protection Status by GAP Status Code",
           "isEnabled": true,
           "isShown": false,
@@ -107,6 +141,22 @@
           "treat404AsError": false,
           "clipToRectangle": false,
           "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protected_Areas_by_GAP_Status_Code_PADUS_21/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Protection Status by GAP Status Code - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Protected_Area_by_GAP_Status_Code/VectorTileServer/tile/{z}/{y}/{x}.pbf",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
@@ -145,6 +195,22 @@
           },
         },
         {
+          "name": "Manager Type - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Manager_Type/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
           "name": "Proclamation and Other Planning Boundaries",
           "isEnabled": true,
           "isShown": false,
@@ -161,6 +227,22 @@
           },
         },
         {
+          "name": "Proclamation and Other Planning Boundaries - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Proclamation_and_Other_Planning_Boundaries/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
           "name": "Protection Mechanism",
           "isEnabled": true,
           "isShown": false,
@@ -171,6 +253,22 @@
           "treat404AsError": false,
           "clipToRectangle": false,
           "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/USA_Protection_Mechanism_Category/FeatureServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+        },
+        {
+          "name": "Protection Mechanism - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Protection_Mechanism_Category/VectorTileServer/tile/{z}/{y}/{x}.pbf",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
