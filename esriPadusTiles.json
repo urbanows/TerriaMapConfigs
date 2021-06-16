@@ -1,0 +1,134 @@
+{
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "sciencebase.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov",
+    "carto.nationalmap.gov",
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com",
+    "tiles.arcgis.com",
+    "services.arcgis.com"
+  ],
+  "homeCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  },
+  "initialCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  },
+  "viewerMode": "2d",
+  "catalog": [
+    {
+      "name": "Protected Areas Database of the U.S. v2.1",
+      "isOpen": false,
+      "type": "group",
+      "items": [
+        {
+          "name": "Federal Fee Managers - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Federal Management Agencies - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Federal_Management_Agencies/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Protection Status by GAP Status Code - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Protected_Area_by_GAP_Status_Code/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Manager Type - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Manager_Type/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Proclamation and Other Planning Boundaries - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Proclamation_and_Other_Planning_Boundaries/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        },
+        {
+          "name": "Protection Mechanism - Tiles",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "url-template",
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "ignoreUnknownTileErrors": true,
+          "tileErrorThresholdBeforeDisabling": 100000,
+          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Protection_Mechanism_Category/VectorTileServer/tile/{z}/{y}/{x}.pbf",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          }
+        }
+      ]
+    }
+  ]
+}
