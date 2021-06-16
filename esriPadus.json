@@ -92,37 +92,6 @@
           }
         },
         {
-          "name": "Federal Fee Managers",
-          "isEnabled": true,
-          "isShown": false,
-          "isPromoted": true,
-          "isLegendVisible": false,
-          "type": "esri-featureServer",
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Protected_Areas_Fee_Manager/FeatureServer/0",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          }
-        },
-        {
-          "name": "Federal Fee Managers - Tiles",
-          "isEnabled": true,
-          "isShown": false,
-          "isPromoted": true,
-          "isLegendVisible": false,
-          "type": "url-template",
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "ignoreUnknownTileErrors": true,
-          "url": "https://tiles.arcgis.com/tiles/P3ePLMYs2RVChkJx/arcgis/rest/services/PADUS_21_Fee_Managers/VectorTileServer/tile/{z}/{y}/{x}.pbf",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          }
-        },
-        {
           "name": "Protection Status by GAP Status Code",
           "isEnabled": true,
           "isShown": false,
