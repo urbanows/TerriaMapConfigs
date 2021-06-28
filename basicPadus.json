@@ -199,7 +199,7 @@
             "text": "USGS",
             "link": "http://www.usgs.gov"
           },
-          "featureInfoTemplate": "<table> <tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>GAP Priority</td> <td>{{GAP_Prity}}</td></tr><tr><td>GAP Region Area (Acers)</td> <td>{{GIS_Acres}}</td></tr></table>",
+          "featureInfoTemplate": "<table> <tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>GAP Priority</td> <td>{{GAP_Prity}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS_Acres}}</td></tr></table>",
           "parameters": {
             "format": "png32"
           }
@@ -219,7 +219,7 @@
             "text": "USGS",
             "link": "http://www.usgs.gov"
           },
-          "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acers)</td> <td>{{GIS Acres}}</td></tr></table>",
+          "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS Acres}}</td></tr></table>",
           "parameters": {
             "format": "png32"
           }
