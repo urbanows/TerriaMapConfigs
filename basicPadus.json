@@ -148,7 +148,7 @@
         },
         {
           "name": "Public Access",
-          "isEnabled": true,
+          "isEnabled": false,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
@@ -167,7 +167,7 @@
         },
         {
           "name": "Protected Areas by Manager",
-          "isEnabled": true,
+          "isEnabled": false,
           "isShown": false,
           "isLegendVisible": false,
           "type": "esri-mapServer",
