@@ -214,7 +214,7 @@
           "treat403AsError": false,
           "treat404AsError": false,
           "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/SpatialAnalysisGAPStatus/MapServer/0",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/SpatialAnalysisGAPStatus/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
