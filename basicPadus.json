@@ -26,144 +26,347 @@
   "catalog": [
     {
       "name": "Protected Areas Database of the U.S. v2.1",
-      "isOpen": false,
+      "isOpen": true,
       "type": "group",
+      "preserveOrder": true,
       "items": [
         {
-          "name": "Fee Topology - All Errors",
-          "isEnabled": false,
-          "isShown": false,
+          "name": "Protection Status",
+          "isOpen": false,
+          "preserveOrder": true,
           "isPromoted": true,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/0",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
+          "type": "group",
+          "items": [
+            {
+              "name": "Protection Status by GAP Status Code",
+              "isEnabled": true,
+              "isShown": true,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionStatusbyGAPStatusCode/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "featureInfoTemplate": "<table> <tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>GAP Priority</td> <td>{{GAP_Prity}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS_Acres}}</td></tr></table>",
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Protection Mechanism Category",
+              "isEnabled": true,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS Acres}}</td></tr></table>",
+              "parameters": {
+                "format": "png32"
+              }
+            }
+          ]
         },
         {
-          "name": "Fee Topology Fed/Fed Grtr than 5 Ac",
-          "isEnabled": false,
-          "isShown": false,
-          "isPromoted": true,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/1",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
+          "name": "Area Manager",
+          "isOpen": false,
+          "preserveOrder": true,
+          "isPromoted": false,
+          "type": "group",
+          "items": [
+              {
+                "name": "Federal Management Agencies",
+                "isEnabled": false,
+                "isShown": false,
+                "isLegendVisible": false,
+                "type": "esri-mapServer",
+                "rectangle": ["140", "-10", "300", "70"],
+                "treat403AsError": false,
+                "treat404AsError": false,
+                "clipToRectangle": false,
+                "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalManagementAgencies/MapServer",
+                "attribution": {
+                  "text": "USGS",
+                  "link": "http://www.usgs.gov"
+                },
+                "parameters": {
+                  "format": "png32"
+                }
+              },
+              {
+                "name": "Manager Type",
+                "isEnabled": false,
+                "isShown": false,
+                "isLegendVisible": false,
+                "type": "esri-mapServer",
+                "rectangle": ["140", "-10", "300", "70"],
+                "treat403AsError": false,
+                "treat404AsError": false,
+                "clipToRectangle": false,
+                "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerType/MapServer",
+                "attribution": {
+                  "text": "USGS",
+                  "link": "http://www.usgs.gov"
+                },
+                "parameters": {
+                  "format": "png32"
+                }
+              },
+              {
+                "name": "Manager Name",
+                "isEnabled": false,
+                "isShown": false,
+                "isLegendVisible": false,
+                "type": "esri-mapServer",
+                "rectangle": ["140", "-10", "300", "70"],
+                "treat403AsError": false,
+                "treat404AsError": false,
+                "clipToRectangle": false,
+                "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerName/MapServer",
+                "attribution": {
+                  "text": "USGS",
+                  "link": "http://www.usgs.gov"
+                },
+                "parameters": {
+                  "format": "png32"
+                }
+              },
+              {
+                "name": "Protection Mechanism Category",
+                "isEnabled": false,
+                "isShown": false,
+                "isLegendVisible": false,
+                "type": "esri-mapServer",
+                "rectangle": ["140", "-10", "300", "70"],
+                "treat403AsError": false,
+                "treat404AsError": false,
+                "clipToRectangle": false,
+                "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
+                "attribution": {
+                  "text": "USGS",
+                  "link": "http://www.usgs.gov"
+                },
+                "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS Acres}}</td></tr></table>",
+                "parameters": {
+                  "format": "png32"
+                }
+              }
+          ]
         },
         {
-          "name": "Fee Topology Fed/State Grtr than 5 Ac",
-          "isEnabled": false,
-          "isShown": false,
-          "isPromoted": true,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/3",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
+          "name": "Fee-Title Manager",
+          "isOpen": false,
+          "preserveOrder": true,
+          "isPromoted": false,
+          "type": "group",
+          "items": [
+            {
+              "name": "Fee Managers",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": true,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "clipToRectangle": false,
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeManagers/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Federal Fee Managers (Authoritative Data)",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalFeeManagersAuth/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            }
+          ]
         },
         {
-          "name": "Proclamation and Other Planning Boundaries",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProclamationandOtherPlanningBoundaries/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Federal Management Agencies",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalManagementAgencies/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Federal Fee Managers (Authoritative Data)",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalFeeManagersAuth/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
+          "name": "Data Steward Workbench",
+          "isOpen": false,
+          "preserveOrder": true,
+          "isPromoted": false,
+          "type": "group",
+          "items": [
+            {
+              "name": "Fee Topology - All Errors",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/0",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Fee Topology Fed/Fed Grtr than 5 Ac",
+              "isEnabled": false,
+              "isShown": false,
+              "isPromoted": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/1",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Fee Topology Fed/State Grtr than 5 Ac",
+              "isEnabled": false,
+              "isShown": false,
+              "isPromoted": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/3",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Fee Topology Fed/Fed Less than 5 Ac",
+              "isEnabled": false,
+              "isShown": false,
+              "isPromoted": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/2",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Fee Topology Fed/State Less than 5 Ac",
+              "isEnabled": false,
+              "isShown": false,
+              "isPromoted": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/4",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            }
+          ]
         },
         {
           "name": "Public Access",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/PublicAccess/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
+          "isOpen": false,
+          "preserveOrder": true,
+          "isPromoted": false,
+          "type": "group",
+          "items": [
+            {
+              "name": "Public Access",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/PublicAccess/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "parameters": {
+                "format": "png32"
+              }
+            },
+            {
+              "name": "Protection Mechanism Category",
+              "isEnabled": false,
+              "isShown": false,
+              "isLegendVisible": false,
+              "type": "esri-mapServer",
+              "rectangle": ["140", "-10", "300", "70"],
+              "treat403AsError": false,
+              "treat404AsError": false,
+              "clipToRectangle": false,
+              "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
+              "attribution": {
+                "text": "USGS",
+                "link": "http://www.usgs.gov"
+              },
+              "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS Acres}}</td></tr></table>",
+              "parameters": {
+                "format": "png32"
+              }
+            }
+          ]
         },
         {
           "name": "Protected Areas by Manager",
@@ -176,103 +379,6 @@
           "treat404AsError": false,
           "clipToRectangle": false,
           "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectedAreasbyManager/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Protection Mechanism Category",
-          "isEnabled": true,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "<table> <tr> <td>Protection Mechanism Category</td> <td>{{Category}}</td></tr><tr> <td>IUCN Category</td> <td>{{IUCN Category}}</td></tr><tr> <td>Owner Name</td> <td>{{Owner Name}}</td></tr><tr> <td>Owner Type</td> <td>{{Owner Type}}</td></tr><tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>Designation Type</td> <td>{{Designation Type}}</td></tr><tr><td>Unit Name</td> <td>{{Unit Name}}</td></tr><tr><td>State Name</td> <td>{{State Name}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS Acres}}</td></tr></table>",
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Protection Status by GAP Status Code",
-          "isEnabled": true,
-          "isShown": true,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/SpatialAnalysisGAPStatus/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "featureInfoTemplate": "<table> <tr> <td>Manager Name</td> <td>{{Manager Name}}</td></tr> <tr><td>Manager Type</td> <td>{{Manager Type}}</td></tr> <tr><td>Public Access</td> <td>{{Public Access}}</td></tr><tr><td>GAP Status Code</td> <td>{{GAP Status Code}}</td></tr><tr><td>GAP Priority</td> <td>{{GAP_Prity}}</td></tr><tr><td>GAP Region Area (Acres)</td> <td>{{GIS_Acres}}</td></tr></table>",
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Manager Type",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerType/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Manager Name",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": false,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerName/MapServer",
-          "attribution": {
-            "text": "USGS",
-            "link": "http://www.usgs.gov"
-          },
-          "parameters": {
-            "format": "png32"
-          }
-        },
-        {
-          "name": "Fee Managers",
-          "isEnabled": false,
-          "isShown": false,
-          "isLegendVisible": true,
-          "type": "esri-mapServer",
-          "rectangle": ["140", "-10", "300", "70"],
-          "clipToRectangle": false,
-          "treat403AsError": false,
-          "treat404AsError": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeManagers/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
