@@ -35,6 +35,8 @@
           "tileErrorThresholdBeforeDisabling": 100000,
           "rectangle": ["-8.371027838622929","41.264292280192194","-8.366392150791656","41.26731894460752"],
           "treat404AsError": false,
+          "treat403AsError": false,
+          "treat203AsError": false,
           "url": "https://tiles.openaerialmap.org/60a2415825820c0005e458d9/0/60a2415825820c0005e458da/{z}/{x}/{y}"
         },
         {
