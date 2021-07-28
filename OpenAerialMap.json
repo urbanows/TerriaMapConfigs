@@ -14,18 +14,6 @@
       "type": "group",
       "items": [
         {
-          "name": "Open Aerial Map - CDI Test",
-          "type": "url-template",
-          "zoomOnEnable": true,
-          "isEnabled": true,
-          "isShown": true,
-          "ignoreUnknownTileErrors": true,
-          "rectangle": ["-123.1357955932617","44.06402980752063","-123.12257778217115","44.070382117220966"],
-          "tileErrorThresholdBeforeDisabling": 100000,
-          "treat404AsError": false,
-          "url": "https://tiles.openaerialmap.org/58ee7f32cfbcc90010aca455/0/c871ddc8-91b3-461f-bc96-f321f33cf483/{z}/{x}/{y}"
-        },
-        {
           "name": "Open Aerial Map - Portugal Test",
           "type": "url-template",
           "zoomOnEnable": true,
@@ -40,7 +28,7 @@
           "url": "https://tiles.openaerialmap.org/60a2415825820c0005e458d9/0/60a2415825820c0005e458da/{z}/{x}/{y}"
         },
         {
-          "name": "Open Aerial Map - WMTS",
+          "name": "Alternative Solution - Open Aerial Map - WMTS",
           "type": "wmts",
           "zoomOnEnable": true,
           "isEnabled": false,
