@@ -1,54 +1,54 @@
-<se:StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
-  <se:NamedLayer>
-    <se:Name>0</se:Name>
-    <se:UserStyle>
-      <se:Name>PADUS2_1Combined_Proclamation_Marine_Fee_Designation_Easement</se:Name>
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name>NP</se:Name>
-          <se:Description>
-            <se:Title>NP</se:Title>
-          </se:Description>
+<sld:StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+  <sld:NamedLayer>
+    <sld:Name>0</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>PADUS2_1Combined_Proclamation_Marine_Fee_Designation_Easement</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Rule>
+          <sld:Name>NP</sld:Name>
+          <sld:Description>
+            <sld:Title>NP</sld:Title>
+          </sld:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Des_Tp</ogc:PropertyName>
               <ogc:Literal>NP</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#b4cb55</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>SP</se:Name>
-          <se:Description>
-            <se:Title>SP</se:Title>
-          </se:Description>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:SvgParameter name="fill">#b4cb55</sld:SvgParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:SvgParameter name="stroke">#232323</sld:SvgParameter>
+              <sld:SvgParameter name="stroke-width">1</sld:SvgParameter>
+              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>SP</sld:Name>
+          <sld:Description>
+            <sld:Title>SP</sld:Title>
+          </sld:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>Des_Tp</ogc:PropertyName>
               <ogc:Literal>SP</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#d57a8f</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
-    </se:UserStyle>
-  </se:NamedLayer>
-</se:StyledLayerDescriptor>
+          <sld:PolygonSymbolizer>
+            <sld:Fill>
+              <sld:SvgParameter name="fill">#d57a8f</sld:SvgParameter>
+            </sld:Fill>
+            <sld:Stroke>
+              <sld:SvgParameter name="stroke">#232323</sld:SvgParameter>
+              <sld:SvgParameter name="stroke-width">1</sld:SvgParameter>
+              <sld:SvgParameter name="stroke-linejoin">bevel</sld:SvgParameter>
+            </sld:Stroke>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
