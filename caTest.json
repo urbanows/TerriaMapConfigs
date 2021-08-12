@@ -1,0 +1,145 @@
+{
+  "corsDomains": [
+    "sciencebase.usgs.gov",
+    "sciencebase.gov",
+    "srfs.wr.usgs.gov",
+    "gis1.usgs.gov",
+    "basemap.nationalmap.gov",
+    "carto.nationalmap.gov",
+    "geocode.arcgis.com",
+    "fly.maptiles.arcgis.com",
+    "services.arcgisonline.com"
+  ],
+  "homeCamera": {
+    "west": -122,
+    "south": 28,
+    "east": -64,
+    "north": 48
+  },
+  "initialCamera": {
+    "west": -122,
+    "south": 31,
+    "east": -113,
+    "north": 38
+  },
+  "viewerMode": "2d",
+  "catalog": [
+    {
+      "name": "Protected Areas Database of the U.S. v2.1",
+      "isOpen": false,
+      "type": "group",
+      "items": [
+        {
+          "name": "All Easement - To be rendered as 5 seperate layers",
+          "isEnabled": true,
+          "isShown": false,
+          "isPromoted": true,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "clipToRectangle": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/CombinedProclamationMarineFeeDesignationEasement_d/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "parameters": {
+            "format": "png32"
+          }
+        },
+        {
+          "name": "Test - Filtered Easement",
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "clipToRectangle": false,
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/CombinedProclamationMarineFeeDesignationEasement/MapServer/0",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "parameters": {
+            "format": "png32"
+          }
+        },
+        {
+          "name": "Test - Dynamic Layers",
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "clipToRectangle": false,
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/CanMexUS_political/MapServer/",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "parameters": {
+              "dynamicLayers": "%5B%7B%22id%22%3A101%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22uniqueValue%22%2C%22field1%22%3A%22STATEABB%22%2C%22uniqueValueInfos%22%3A%5B%7B%22value%22%3A%22US-CO%22%2C%22label%22%3A%22CO%22%2C%22symbol%22%3A%7B%22color%22%3A%5B0%2C43%2C8%2C128%5D%2C%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%7D%7D%5D%7D%7D%7D%5D"
+          }
+        },
+        {
+          "name": "Slow - Essential Fish Habitat",
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-featureServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "clipToRectangle": false,
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "url": "https://services9.arcgis.com/lm7wE8a9YA9rKfzy/arcgis/rest/services/ps_mpa_usa_083018_attributes_text_final_2/FeatureServer"
+        },
+        {
+          "name": "Public Access",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": true,
+          "type": "esri-mapServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "clipToRectangle": false,
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/PublicAccess/MapServer",
+          "attribution": {
+            "text": "USGS",
+            "link": "http://www.usgs.gov"
+          },
+          "parameters":{
+            "format": "png32"
+          }
+        },
+        {
+          "name": "UNEP Hosted World Database of Protected Areas (WDPA)",
+          "type": "esri-mapServer",
+          "isEnabled": false,
+          "isShown": false,
+          "isLegendVisible": false,
+          "zoomOnEnable": true,
+          "url": "https://data-gis.unep-wcmc.org/server/rest/services/ProtectedSites/The_World_Database_of_Protected_Areas/MapServer/"
+        },
+        {
+          "name": "Protected Areas by IUCN Protection Category (Terrestrial and Marine) ",
+          "isEnabled": true,
+          "isShown": false,
+          "isLegendVisible": false,
+          "type": "esri-mapServer",
+          "rectangle": ["140", "-10", "300", "70"],
+          "clipToRectangle": false,
+          "treat403AsError": false,
+          "treat404AsError": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/WPDA/MapServer"
+        }
+      ]
+    }
+  ]
+}
