@@ -40,7 +40,7 @@
           "treat403AsError": false,
           "treat404AsError": false,
           "clipToRectangle": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/CombinedProclamationMarineFeeDesignationEasement_d/MapServer",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/CombinedProclamationMarineFeeDesignationEasement/MapServer",
           "attribution": {
             "text": "USGS",
             "link": "http://www.usgs.gov"
@@ -137,7 +137,7 @@
           "clipToRectangle": false,
           "treat403AsError": false,
           "treat404AsError": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/WPDA/MapServer"
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/WDPA/MapServer"
         }
       ]
     }
