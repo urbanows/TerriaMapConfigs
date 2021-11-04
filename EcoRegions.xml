@@ -61,7 +61,7 @@
         <Format>text/html</Format>
         <Format>text/plain</Format>
         <DCPType>
-          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://wfs.geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
         </DCPType>
       </GetFeatureInfo>
       <esri_wms:GetStyles>
