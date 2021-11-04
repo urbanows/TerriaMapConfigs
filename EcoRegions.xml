@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WMS_Capabilities version="1.3.0" xmlns="http://www.opengis.net/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:esri_wms="http://www.esri.com/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.esri.com/wms https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?version=1.3.0%26service=WMS%26request=GetSchemaExtension">
+  <Service>
+    <Name><![CDATA[WMS]]></Name>
+    <Title>WMS</Title>
+    <Abstract>WMS</Abstract>
+    <KeywordList><Keyword><![CDATA[]]></Keyword></KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson><![CDATA[]]></ContactPerson>
+        <ContactOrganization><![CDATA[]]></ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition><![CDATA[]]></ContactPosition>
+      <ContactAddress>
+        <AddressType><![CDATA[]]></AddressType>
+        <Address><![CDATA[]]></Address>
+        <City><![CDATA[]]></City>
+        <StateOrProvince><![CDATA[]]></StateOrProvince>
+        <PostCode><![CDATA[]]></PostCode>
+        <Country><![CDATA[]]></Country>
+      </ContactAddress>
+      <ContactVoiceTelephone><![CDATA[]]></ContactVoiceTelephone>
+      <ContactFacsimileTelephone><![CDATA[]]></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress><![CDATA[]]></ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees><![CDATA[]]></Fees>
+    <AccessConstraints><![CDATA[]]></AccessConstraints>
+    <MaxWidth>2048</MaxWidth>
+    <MaxHeight>2048</MaxHeight>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/bmp</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/tiff</Format>
+        <Format>image/png</Format>
+        <Format>image/png8</Format>
+        <Format>image/png24</Format>
+        <Format>image/png32</Format>
+        <Format>image/gif</Format>
+        <Format>image/svg+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>application/vnd.esri.wms_raw_xml</Format>
+        <Format>application/vnd.esri.wms_featureinfo_xml</Format>
+        <Format>application/vnd.ogc.wms_xml</Format>
+        <Format>application/geojson</Format>
+        <Format>text/xml</Format>
+        <Format>text/html</Format>
+        <Format>text/plain</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+      <esri_wms:GetStyles>
+        <Format>application/vnd.ogc.sld+xml</Format>
+        <DCPType>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?"/></Get></HTTP>
+        </DCPType>
+      </esri_wms:GetStyles>
+    </Request>
+    <Exception>
+      <Format>application/vnd.ogc.se_xml</Format>
+      <Format>application/vnd.ogc.se_inimage</Format>
+      <Format>application/vnd.ogc.se_blank</Format>
+      <Format>text/xml</Format>
+      <Format>XML</Format>
+    </Exception>
+    <Layer>
+      <Title><![CDATA[US Level III and IV Ecoregions]]></Title>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+      <Layer queryable="1">
+        <Name>0</Name>
+        <Title><![CDATA[Level IV Ecoregion Status (December 2011)]]></Title>
+        <Abstract><![CDATA[<A href="https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B02C99043-2E25-4A4E-BBE3-6AAE81ED7FC8%7D">Full Metadata<A/> This layer represents the status of Level IV Omernik Ecoregion development as of December 2011. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions (n = 968) are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. ]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level IV Ecoregion Status (December 2011)]]></Title>
+          <LegendURL width="66" height="36">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=0" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Title><![CDATA[Level III Ecoregions (December 2011)]]></Title>
+        <Abstract><![CDATA[<A href="https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B02C99043-2E25-4A4E-BBE3-6AAE81ED7FC8%7D">Full Metadata<A/> This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. ]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+      <Layer queryable="1">
+        <Name>2</Name>
+        <Title><![CDATA[Level III Ecoregion Polygons]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. For additional information about this mapping service or to obtain the ecoregion data used to create the service, contact US EPA GIS Agency Central Support, esrisupport@epa.gov.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Polygons]]></Title>
+          <LegendURL width="348" height="1530">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=2" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>3</Name>
+        <Title><![CDATA[Level III Ecoregion Labels (Scale LT 4,000,000)]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. For additional information about this mapping service or to obtain the ecoregion data used to create the service, contact US EPA GIS Agency Central Support, esrisupport@epa.gov.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Labels (Scale LT 4,000,000)]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=3" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MaxScaleDenominator>3779761.904762</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>4</Name>
+        <Title><![CDATA[Level III Ecoregion Labels (Scale GT 4,000,000)]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. For additional information about this mapping service or to obtain the ecoregion data used to create the service, contact US EPA GIS Agency Central Support, esrisupport@epa.gov.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733161</westBoundLongitude><eastBoundLongitude>-66.949926</eastBoundLongitude><southBoundLatitude>24.545377</southBoundLatitude><northBoundLatitude>49.380272</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733161" miny="24.545377" maxx="-66.949926" maxy="49.380272"/>
+<BoundingBox CRS="EPSG:4326" minx="24.545377" miny="-124.733161" maxx="49.380272" maxy="-66.949926"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885231.945200" miny="2820006.904300" maxx="-7452831.721700" maxy="6339633.674800"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885231.945200" miny="2820006.904300" maxx="-7452831.721700" maxy="6339633.674800"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Labels (Scale GT 4,000,000)]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=4" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3779762.849702</MinScaleDenominator>
+      </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Title><![CDATA[Level IV Ecoregions (December 2011) IMPORTANT: read layer description]]></Title>
+        <Abstract><![CDATA[<A href="https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B02C99043-2E25-4A4E-BBE3-6AAE81ED7FC8%7D">Full Metadata<A/> This web service layer group contains multiple layers at various scale dependencies which enhances the cartographic display of ecoregion data. Each layer depicts ecoregion features drawn at specific scales as detailed in the layer name. IMPORTANT information regarding proper legend rendering in ArcMap: Due to the limitations of Graphical Device Interface (GDI) resources per application on Windows, ArcMap does not display the legend in the Table of Contents for the ArcGIS Server service layer if the legend has more than 100 items. As of December 2011, there are 968 unique legend items in the Level IV Ecoregion Polygon legend. Follow this link (http://support.esri.com/en/knowledgebase/techarticles/detail/33741) for instructions about how to increase the maximum number of ArcGIS Server service layer legend items allowed for display in ArcMap. Note the instructions at this link provide a slightly incorrect path to "Maximum Legend Count". The correct path is HKEY_CURRENT_USER > Software > ESRI > ArcMap > Server > MapServerLayer > Maximum Legend Count. When editing the "Maximum Legend Count", update the field, "Value data" to 1000. To download a PDF version of the Level IV ecoregion map and legend, go to ftp://ftp.epa.gov/wed/ecoregions/us/Eco_Level_IV_US_pg.pdf. Please read the remainder of this layer description for general information about Level IV Omernik Ecoregions. This layer represents Level IV Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+      <Layer queryable="1">
+        <Name>6</Name>
+        <Title><![CDATA[Level IV Ecoregion Polygons]]></Title>
+        <Abstract><![CDATA[IMPORTANT information regarding proper legend rendering in ArcMap: Due to the limitations of Graphical Device Interface (GDI) resources per application on Windows, ArcMap does not display the legend in the Table of Contents for the ArcGIS Server service layer if the legend has more than 100 items. As of December 2011, there are 968 unique legend items in the Level IV Ecoregion Polygon legend. Follow this link (http://support.esri.com/en/knowledgebase/techarticles/detail/33741) for instructions about how to increase the maximum number of ArcGIS Server service layer legend items allowed for display in ArcMap. Note the instructions at this link provide a slightly incorrect path to "Maximum Legend Count". The correct path is HKEY_CURRENT_USER > Software > ESRI > ArcMap > Server > MapServerLayer > Maximum Legend Count. When editing the "Maximum Legend Count", update the field, "Value data" to 1000. To download a PDF version of the Level IV ecoregion map and legend, go to ftp://ftp.epa.gov/wed/ecoregions/us/Eco_Level_IV_US_pg.pdf. Please read the remainder of this layer description for general information about Level IV Omernik Ecoregions. This layer represents Level IV Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. ]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level IV Ecoregion Polygons]]></Title>
+          <LegendURL width="450" height="2048">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=6" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>7</Name>
+        <Title><![CDATA[Level IV Ecoregion Lines (Scale LT 9,000,000)]]></Title>
+        <Abstract><![CDATA[IMPORTANT information regarding proper legend rendering in ArcMap: Due to the limitations of Graphical Device Interface (GDI) resources per application on Windows, ArcMap does not display the legend in the Table of Contents for the ArcGIS Server service layer if the legend has more than 100 items. As of December 2011, there are 968 unique legend items in the Level IV Ecoregion Polygon legend. Follow this link (http://support.esri.com/en/knowledgebase/techarticles/detail/33741) for instructions about how to increase the maximum number of ArcGIS Server service layer legend items allowed for display in ArcMap. Note the instructions at this link provide a slightly incorrect path to "Maximum Legend Count". The correct path is HKEY_CURRENT_USER > Software > ESRI > ArcMap > Server > MapServerLayer > Maximum Legend Count. When editing the "Maximum Legend Count", update the field, "Value data" to 1000. To download a PDF version of the Level IV ecoregion map and legend, go to ftp://ftp.epa.gov/wed/ecoregions/us/Eco_Level_IV_US_pg.pdf. Please read the remainder of this layer description for general information about Level IV Omernik Ecoregions. This layer represents Level IV Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level IV Ecoregion Lines (Scale LT 9,000,000)]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=7" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MaxScaleDenominator>8504464.285714</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>8</Name>
+        <Title><![CDATA[Level IV Ecoregion Labels (Scale LT 4,000,000)]]></Title>
+        <Abstract><![CDATA[IMPORTANT information regarding proper legend rendering in ArcMap: Due to the limitations of Graphical Device Interface (GDI) resources per application on Windows, ArcMap does not display the legend in the Table of Contents for the ArcGIS Server service layer if the legend has more than 100 items. As of December 2011, there are 968 unique legend items in the Level IV Ecoregion Polygon legend. Follow this link (http://support.esri.com/en/knowledgebase/techarticles/detail/33741) for instructions about how to increase the maximum number of ArcGIS Server service layer legend items allowed for display in ArcMap. Note the instructions at this link provide a slightly incorrect path to "Maximum Legend Count". The correct path is HKEY_CURRENT_USER > Software > ESRI > ArcMap > Server > MapServerLayer > Maximum Legend Count. When editing the "Maximum Legend Count", update the field, "Value data" to 1000. To download a PDF version of the Level IV ecoregion map and legend, go to ftp://ftp.epa.gov/wed/ecoregions/us/Eco_Level_IV_US_pg.pdf. Please read the remainder of this layer description for general information about Level IV Omernik Ecoregions. This layer represents Level IV Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. Compilation of the level IV maps, performed at 1:250,000 scale, has been a part of collaborative projects between US Environmental Protection Agency, National Health and Environmental Effects Laboratory (NHEERL)--Corvallis, OR, the US Forest Service, Natural Resources Conservation Service, and a variety of other state and federal resource agencies. The ecoregions and subregions are designed to serve as a spatial framework for environmental resource management. The most immediate needs by the states are for developing regional biological criteria and water resource standards, and for setting management goals for nonpoint-source pollution. Level IV ecoregions are intended for large geographic extents (i.e. states, multiple counties, or river basins). Use for smaller areas, such as individual counties or a 1:24,000 scale map boundary, is not recommended. Explanation of the methods used to delineate the ecoregions are given in Omernik (1995), Griffith et al. (1994), and Gallant et al. (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level IV Ecoregion Labels (Scale LT 4,000,000)]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=8" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MaxScaleDenominator>3779761.904762</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>9</Name>
+        <Title><![CDATA[Level III Ecoregion Labels (Scale GT 4,000,000)]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. ]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733161</westBoundLongitude><eastBoundLongitude>-66.949926</eastBoundLongitude><southBoundLatitude>24.545377</southBoundLatitude><northBoundLatitude>49.380272</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733161" miny="24.545377" maxx="-66.949926" maxy="49.380272"/>
+<BoundingBox CRS="EPSG:4326" minx="24.545377" miny="-124.733161" maxx="49.380272" maxy="-66.949926"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885231.945200" miny="2820006.904300" maxx="-7452831.721700" maxy="6339633.674800"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885231.945200" miny="2820006.904300" maxx="-7452831.721700" maxy="6339633.674800"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Labels (Scale GT 4,000,000)]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=9" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>3779762.849702</MinScaleDenominator>
+        <MaxScaleDenominator>33072916.666667</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>10</Name>
+        <Title><![CDATA[Level III Ecoregion Lines (Scale LT 9,000,000)]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n=968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm. ]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Lines (Scale LT 9,000,000)]]></Title>
+          <LegendURL width="162" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=10" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MaxScaleDenominator>8504464.285714</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="1">
+        <Name>11</Name>
+        <Title><![CDATA[Level III Ecoregion Lines (Scale GT 9,000,000)]]></Title>
+        <Abstract><![CDATA[This layer represents Level III Omernik Ecoregions. Ecoregions denote areas of general similarity in ecosystems and in the type, quality, and quantity of environmental resources. They are designed to serve as a spatial framework for the research, assessment, management, and monitoring of ecosystems and ecosystem components. These general purpose regions are critical for structuring and implementing ecosystem management strategies across federal agencies, state agencies, and nongovernment organizations that are responsible for different types of resources within the same geographical areas. The approach used to compile this map is based on the premise that ecological regions can be identified through the analysis of patterns of biotic and abiotic phenomena, including geology, physiography, vegetation, climate, soils, land use, wildlife, and hydrology. The relative importance of each characteristic varies from one ecological region to another. A Roman numeral hierarchical scheme has been adopted for different levels for ecological regions. Level I is the coarsest level, dividing North America into 15 ecological regions. Level II divides the continent into 52 regions (Commission for Environmental Cooperation Working Group, 1997). At Level III, the continental United States contains 105 regions whereas the conterminous United States has 85 (US Environmental Protection Agency, 2005). Level IV ecoregions (n = 968) are further subdivisions of Level III ecoregions. Methods used to define the ecoregions are explained in Omernik (1995, 2004), Omernik and others (2000), and Gallant and others (1989). For more information about Omernik ecoregions or to download ecoregion maps and GIS data, go to: http://www.epa.gov/wed/pages/ecoregions.htm.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[Level III Ecoregion Lines (Scale GT 9,000,000)]]></Title>
+          <LegendURL width="162" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=11" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>8504465.230655</MinScaleDenominator>
+      </Layer>
+      </Layer>
+      <Layer queryable="1">
+        <Name>12</Name>
+        <Title><![CDATA[State Lines]]></Title>
+        <Abstract><![CDATA[The state lines were derived from ecoregion data available at http://www.epa.gov/wed/pages/ecoregions.htm. State lines were created by dissolving ecoregion lines. State lines were originally derived from Esri's Maps and Data dtl_st.sdc.]]></Abstract>
+<CRS>CRS:84</CRS>
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+ <!-- alias 3857 -->
+<CRS>EPSG:102100</CRS>
+<EX_GeographicBoundingBox><westBoundLongitude>-124.733188</westBoundLongitude><eastBoundLongitude>-66.949826</eastBoundLongitude><southBoundLatitude>24.543941</southBoundLatitude><northBoundLatitude>49.384363</northBoundLatitude></EX_GeographicBoundingBox>
+<BoundingBox CRS="CRS:84" minx="-124.733188" miny="24.543941" maxx="-66.949826" maxy="49.384363"/>
+<BoundingBox CRS="EPSG:4326" minx="24.543941" miny="-124.733188" maxx="49.384363" maxy="-66.949826"/>
+<BoundingBox CRS="EPSG:3857" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+<BoundingBox CRS="EPSG:102100" minx="-13885234.981100" miny="2819831.125300" maxx="-7452820.589800" maxy="6340333.201600"/>
+        <Style>
+          <Name>default</Name>
+          <Title><![CDATA[State Lines]]></Title>
+          <LegendURL width="18" height="18">
+            <Format>image/png</Format>
+            <OnlineResource xlink:href="https://geodata.epa.gov/arcgis/services/ORD/USEPA_Ecoregions_Level_III_and_IV/MapServer/WmsServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=12" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>
