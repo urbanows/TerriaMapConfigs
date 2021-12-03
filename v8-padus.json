@@ -1,6 +1,6 @@
 {
-  "workbench": ["3aYlft"],
-  "timeline":  ["3aYlft"],
+  "workbench": ["hh2K7G"],
+  "timeline":  ["hh2K7G"],
   "catalog": [
     {
       "id": "xRHPNQ",
@@ -9,233 +9,23 @@
       "members": [
         {
           "type": "esri-mapServer",
-          "name": "Fee Topology - All Errors",
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/0",
+          "name": "Fee Managers",
+          "show": true,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeManagers/MapServer",
           "rectangle": {
             "west": 140,
             "south": -10,
             "east": 300,
             "north": 70
           },
-		  "show": true,
-		  "isOpenInWorkbench": true,
+          "isOpenInWorkbench": true,
           "clipToRectangle": false,
           "parameters": {
             "format": "png32"
           },
-          "id": "3aYlft",
+          "id": "hh2K7G",
           "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology - All Errors"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Fee Topology Fed/Fed Grtr than 5 Ac",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/1",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "er78gp",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology Fed/Fed Grtr than 5 Ac"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Fee Topology Fed/State Grtr than 5 Ac",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/3",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "HzuxKA",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology Fed/State Grtr than 5 Ac"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Proclamation and Other Planning Boundaries",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProclamationandOtherPlanningBoundaries/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "Ums8lq",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Proclamation and Other Planning Boundaries"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Federal Management Agencies",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalManagementAgencies/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "NLlJ22",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Federal Management Agencies"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Federal Fee Managers (Authoritative Data)",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalFeeManagersAuth/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "EezPdu",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Federal Fee Managers (Authoritative Data)"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Public Access",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/PublicAccess/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "pNUZdU",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Public Access"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Protected Areas by Manager",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectedAreasbyManager/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "QsDi6b",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Protected Areas by Manager"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Protection Status by GAP Status Code",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/SpatialAnalysisGAPStatus/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "cJG1Cg",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Protection Status by GAP Status Code"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Protection Mechanism Category",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "zJ8ZDE",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Protection Mechanism Category"
-          ]
-        },
-        {
-          "type": "esri-mapServer",
-          "name": "Manager Type",
-          "show": false,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerType/MapServer",
-          "rectangle": {
-            "west": 140,
-            "south": -10,
-            "east": 300,
-            "north": 70
-          },
-          "isOpenInWorkbench": false,
-          "clipToRectangle": false,
-          "parameters": {
-            "format": "png32"
-          },
-          "id": "1ktzkA",
-          "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Manager Type"
+            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Managers"
           ]
         },
         {
@@ -261,23 +51,233 @@
         },
         {
           "type": "esri-mapServer",
-          "name": "Fee Managers",
-          "show": true,
-          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeManagers/MapServer",
+          "name": "Manager Type",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ManagerType/MapServer",
           "rectangle": {
             "west": 140,
             "south": -10,
             "east": 300,
             "north": 70
           },
-          "isOpenInWorkbench": true,
+          "isOpenInWorkbench": false,
           "clipToRectangle": false,
           "parameters": {
             "format": "png32"
           },
-          "id": "hh2K7G",
+          "id": "1ktzkA",
           "shareKeys": [
-            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Managers"
+            "Root Group/Protected Areas Database of the U.S. v2.1/Manager Type"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Protection Mechanism Category",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectionMechanismCategory/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "zJ8ZDE",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Protection Mechanism Category"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Protection Status by GAP Status Code",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/SpatialAnalysisGAPStatus/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "cJG1Cg",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Protection Status by GAP Status Code"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Protected Areas by Manager",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProtectedAreasbyManager/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "QsDi6b",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Protected Areas by Manager"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Public Access",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/PublicAccess/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "pNUZdU",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Public Access"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Federal Fee Managers (Authoritative Data)",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalFeeManagersAuth/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "EezPdu",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Federal Fee Managers (Authoritative Data)"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Federal Management Agencies",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FederalManagementAgencies/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "NLlJ22",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Federal Management Agencies"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Proclamation and Other Planning Boundaries",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/ProclamationandOtherPlanningBoundaries/MapServer",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "Ums8lq",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Proclamation and Other Planning Boundaries"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Topology Fed/State Grtr than 5 Ac",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/3",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "HzuxKA",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology Fed/State Grtr than 5 Ac"
+          ]
+        },
+        {
+          "type": "esri-mapServer",
+          "name": "Fee Topology Fed/Fed Grtr than 5 Ac",
+          "show": false,
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/1",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+          "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "er78gp",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology Fed/Fed Grtr than 5 Ac"
+          ]
+        },
+		{
+          "type": "esri-mapServer",
+          "name": "Fee Topology - All Errors",
+          "url": "https://gis1.usgs.gov/arcgis/rest/services/padus2_1/FeeTopologyOverlaps/MapServer/0",
+          "rectangle": {
+            "west": 140,
+            "south": -10,
+            "east": 300,
+            "north": 70
+          },
+		  "show": false,
+		  "isOpenInWorkbench": false,
+          "clipToRectangle": false,
+          "parameters": {
+            "format": "png32"
+          },
+          "id": "3aYlft",
+          "shareKeys": [
+            "Root Group/Protected Areas Database of the U.S. v2.1/Fee Topology - All Errors"
           ]
         }
       ],
