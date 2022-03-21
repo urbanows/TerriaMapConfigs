@@ -1,0 +1,81 @@
+<feed
+    xmlns="http://www.w3.org/2005/Atom">
+    <entry>
+        <id>PAD_US_Fee_Topology_0</id>
+        <title>Fee Topology - All Errors</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/PAD_US_Fee_Topology/MapServer/0</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>PAD_US_Fee_Topology_1</id>
+        <title>Fee Topology Fed/Fed Grtr than 5 Ac</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/PAD_US_Fee_Topology/MapServer/1</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>PAD_US_Fee_Topology_2</id>
+        <title>Fee Topology Fed/State Grtr than 5 Ac</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/PAD_US_Fee_Topology/MapServer/2</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Proclamation_and_Other_Planning_Boundaries</id>
+        <title>Proclamation and Other Planning Boundaries</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Proclamation_and_Other_Planning_Boundaries/
+MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Federal_Management_Agencies</id>
+        <title>Federal Management Agencies</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Federal_Management_Agencies/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Federal_Fee_Managers_Authoritative</id>
+        <title>Federal Fee Managers - Authoritative Data</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Federal_Fee_Managers_Authoritative/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Public_Access</id>
+        <title>Public Access</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Public_Access/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Protection_Status_by_GAP_Status_Code</id>
+        <title>Protection Status by GAP Status Code</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Protection_Status_by_GAP_Status_Code/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Protection_Mechanism_Category</id>
+        <title>Protection Mechanism Category</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Protection_Mechanism_Category/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Manager_Type</id>
+        <title>Manager Type</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Manager_Type/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+    <entry>
+        <id>Fee_Managers</id>
+        <title>Fee Managers Type</title>
+        <serviceType>agsmapserver</serviceType>
+        <serviceUrl>https://gis1.usgs.gov/arcgis/rest/services/padus3/Fee_Managers/MapServer</serviceUrl>
+        <emailAddress>surbanowski@usgs.gov</emailAddress>
+    </entry>
+</feed> 
